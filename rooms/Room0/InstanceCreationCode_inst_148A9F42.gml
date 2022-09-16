@@ -1,0 +1,1 @@
+text = ["This prism serves as a way to check how the dialogue box behaves in a room where the camera can move","So? How does it look? decent of bad? it is very important that I know"];

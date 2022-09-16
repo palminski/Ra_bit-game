@@ -1,0 +1,1 @@
+text = ["This Prisim is testing the interactable boarder","So? How does it look?"];
