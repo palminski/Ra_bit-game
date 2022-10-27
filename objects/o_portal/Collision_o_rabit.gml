@@ -37,13 +37,8 @@ with (o_rabit)
 
 if (target == HomeBase)
 		{
-			//Slide_transition(TRANSITION_MODE.NEXT);
-			//if instance_exists(o_transition) 
-			//	{
-			//		o_transition.playerSpawnX = 0;
-			//		o_transition.playerSpawnY = 0;
-			//	}
-			
+
+			//Moves player to random room in level or increases leven
 			if array_length(global.stages[global.level]) > 0
 			{
 				var selectedRoom = irandom(array_length(global.stages[global.level])-1);

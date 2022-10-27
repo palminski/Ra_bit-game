@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "o_solid_for_player",
   "spriteId": {
     "name": "s_wall",
     "path": "sprites/s_wall/s_wall.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "walls",
     "path": "folders/Objects/walls.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "o_solid_for_player",
-  "tags": [],
-  "resourceType": "GMObject",
 }
