@@ -40,7 +40,9 @@ if advancetext
 	{
 		if (currentItemInArray + 1 == totalItemsInArray)
 		{
+			
 			if instance_exists(o_rabit) {o_rabit.hascontrol = true;}
+			
 			if responsesExist
 			{
 				Script_Dialogue_Response(responses[1][responseSelected]);
@@ -49,6 +51,7 @@ if advancetext
 			
 			if !responsesExist
 			{
+				
 				if instance_exists(o_rabit) {o_rabit.hascontrol = true;}
 			}
 		}

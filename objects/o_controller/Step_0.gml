@@ -4,10 +4,18 @@ var bg_color = layer_background_get_id(layer_get_id("Background_Color"));
 layer_background_blend(background, c_white)
 keyspace = keyboard_check_pressed(vk_space);
 
-//Swapping state of Room
-if instance_exists(o_rabit) && (keyspace) && o_rabit.hascontrol 
+//checking if by dialogue trigger
+byDialogueTrigger = false;
+if (instance_exists(o_dialogue_parent) && instance_exists(o_rabit) && point_in_circle(o_rabit.x,o_rabit.y,o_dialogue_parent.x,o_dialogue_parent.y,50))
 {
-	if recharge == 0
+	byDialogueTrigger = true;	
+}
+
+
+//Swapping state of Room
+if instance_exists(o_rabit) && (keyspace) && o_rabit.hascontrol && !byDialogueTrigger
+{
+	if recharge == 0 
 	{
 		recharge = 7;
 		if (global.roomtype == ROOMTYPE.BLUE )

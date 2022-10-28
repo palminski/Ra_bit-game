@@ -10,7 +10,6 @@ if instance_exists(o_rabit) && (point_in_circle(o_rabit.x,o_rabit.y,x,y,50)) && 
 		responses = other.responses;
 		length = string_length(text[0]);
 		totalItemsInArray = array_length(text);
-		
 	}
 	with (o_camera)
 	{

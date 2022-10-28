@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_dialogue_parent",
+    "path": "objects/o_dialogue_parent/o_dialogue_parent.yy",
+  },
   "physicsObject": true,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -37,7 +40,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Text",
+    "path": "folders/Objects/Controllers, UI, and Renderers/Text.yy",
   },
 }

@@ -1,2 +1,2 @@
-text = ["Hello World.","While that other Prism can only have 1 dialogue box, This Prism can have multiple! Clearly this makes it superior!","In fact, you can even respond to the text from this prism!","{RESPONSE} That's pretty nifty eh?"];
+text = ["Excelent we can contact you here as well!","We have were able to insert these 'Prisms' at various synaptical junctions\nWe should be able to get in contact with you through them","Now, I'm sensing an exit around here somewhere, but it might be hidden.\nTry taking a look around."];
 responses = [["Yes","No"],[1,2]];

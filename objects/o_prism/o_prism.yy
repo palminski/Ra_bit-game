@@ -39,7 +39,7 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Text",
+    "path": "folders/Objects/Controllers, UI, and Renderers/Text.yy",
   },
 }
