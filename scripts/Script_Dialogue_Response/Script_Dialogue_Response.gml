@@ -6,7 +6,7 @@ if argument[0] == 1
 {
 with (instance_create_layer(x,y-50,"Controllers",o_text_dialogue))
 	{
-		text = ["Thank God!","Oh man, I almost can't believe it. \n But it actually did work.", "You entered his subconsious!", "Now I know you might be a little bit disoriented, \n but stay focused on the mission!", "Alright, first things first.\nWalk over to that prism over there and press [SPACE]"];
+		text = ["Thank God!","Oh man, We almost can't believe it. \n But it actually did work.", "You entered his subconsious!", "Now, we know you might be a little bit disoriented, \n but stay focused on the mission!", "Alright, first things first.\nWalk over to that prism over there and press [SPACE]"];
 		responses = ["None","None"];
 		length = string_length(text[0]);
 		totalItemsInArray = array_length(text);
@@ -19,7 +19,7 @@ if argument[0] == 2
 {
 with (instance_create_layer(x,y-50,"Controllers",o_text_dialogue))
 	{
-		text = ["But if you couldn't hear me how-", "Ha! Good one Chief!\nIt's good to see that your sense of humor is still intact!", "Oh man, I almost can't believe it. \n But it actually did work.", "You entered his subconsious!", "Now I know you might be a little bit disoriented, \n but stay focused on the mission!", "Alright, first things first.\nWalk over to that prism over there and press [SPACE]"];
+		text = ["But if you couldn't hear us how-\nOh wait.", "Ha! Good one Chief!\nIt's good to see that your sense of humor is still intact!", "Oh man, we almost can't believe it. \n But it actually did work.", "You entered his subconsious!", "Now we know you might be a little bit disoriented, \n but stay focused on the mission!", "Alright, first things first.\nWalk over to that prism over there and press [SPACE]"];
 		responses = [["Yes","No"],[1,2]];
 		length = string_length(text[0]);
 		totalItemsInArray = array_length(text);
