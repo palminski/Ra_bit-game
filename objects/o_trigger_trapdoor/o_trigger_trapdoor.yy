@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_trigger_trapdoor",
   "spriteId": {
-    "name": "Sprite48",
-    "path": "sprites/Sprite48/Sprite48.yy",
+    "name": "s_player_spawn",
+    "path": "sprites/s_player_spawn/s_player_spawn.yy",
   },
   "solid": false,
   "visible": false,

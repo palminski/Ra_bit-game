@@ -1,10 +1,11 @@
 {
-  "spriteId": {
-    "name": "Sprite48",
-    "path": "sprites/Sprite48/Sprite48.yy",
-  },
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "s_trigger_trapdoor",
+  "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +28,4 @@
     "name": "Invisable Objects",
     "path": "folders/Sprites/Invisable Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "s_trigger_trapdoor",
-  "tags": [],
-  "resourceType": "GMObject",
 }
