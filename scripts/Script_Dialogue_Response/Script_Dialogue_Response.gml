@@ -70,13 +70,13 @@ if argument[0] == 11
 with (instance_create_layer(x,y-50,"Controllers",o_text_dialogue))
 	{
 		
-		if (is_undefined(global.security_clearance[? "Admin-1GG"])) 
+		if (is_undefined(global.security_clearance[? argument[1]])) 
 		{
-			text = ["Downloaded Admin-1GG Clearance!"];
-			global.security_clearance[? "Admin-1GG"] = true;	
+			text = ["Downloaded "+argument[1]+" Clearance!"];
+			global.security_clearance[? argument[1]] = true;	
 		}
 		else {
-			text = ["Clearance already downloaded!"];
+			text = ["ERROR: CLEARANCE ALREADY DOWNLOADED"];
 		}
 		responses = ["None","None"];
 		length = string_length(text[0]);

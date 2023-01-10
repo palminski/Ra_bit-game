@@ -16,6 +16,7 @@ text_speed = 0.65;
 letters = 0;
 text = "Hello World.\nTest String";
 responses = [["TEST1","TEST2"],[1,2]];
+pass_with_response = "none";
 color = c_blue;
 length = string_length(text);
 currentItemInArray = 0;
