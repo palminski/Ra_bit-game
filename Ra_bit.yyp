@@ -173,6 +173,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"HomeBase","path":"rooms/HomeBase/HomeBase.yy",},},
     {"roomId":{"name":"Room_1_1","path":"rooms/Room_1_1/Room_1_1.yy",},},
+    {"roomId":{"name":"Room_1_1_c","path":"rooms/Room_1_1_c/Room_1_1_c.yy",},},
     {"roomId":{"name":"Template_Small","path":"rooms/Template_Small/Template_Small.yy",},},
     {"roomId":{"name":"Template_Medium","path":"rooms/Template_Medium/Template_Medium.yy",},},
     {"roomId":{"name":"Template_Large","path":"rooms/Template_Large/Template_Large.yy",},},
@@ -183,7 +184,6 @@
     {"roomId":{"name":"Break_Room","path":"rooms/Break_Room/Break_Room.yy",},},
     {"roomId":{"name":"DeathRoom","path":"rooms/DeathRoom/DeathRoom.yy",},},
     {"roomId":{"name":"Room_1_1_a","path":"rooms/Room_1_1_a/Room_1_1_a.yy",},},
-    {"roomId":{"name":"Room_1_1_c","path":"rooms/Room_1_1_c/Room_1_1_c.yy",},},
     {"roomId":{"name":"Room_1_1_a_a","path":"rooms/Room_1_1_a_a/Room_1_1_a_a.yy",},},
     {"roomId":{"name":"Room_1_1_b","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},},
     {"roomId":{"name":"Room_1_1_b_a","path":"rooms/Room_1_1_b_a/Room_1_1_b_a.yy",},},
