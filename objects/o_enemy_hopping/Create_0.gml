@@ -1,6 +1,7 @@
 event_inherited();
 move_direction = 1;
 
+
 hspd = 1;
 vspd = 1;
 grav = 0.4;

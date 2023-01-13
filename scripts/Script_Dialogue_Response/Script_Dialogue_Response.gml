@@ -56,6 +56,35 @@ target = HomeBase;
 Slide_transition(TRANSITION_MODE.GOTO,target);
 }
 
+//SECURITY CLEARANCE
+if argument[0] ==10 {
+	text = ["No Clearance Downloaded.", "Have a nice day!"];
+		responses = ["None","None"];
+		length = string_length(text[0]);
+		totalItemsInArray = array_length(text);
+		x1 = x1Target;
+		x2 = x2Target;
+}
+if argument[0] == 11
+{
+with (instance_create_layer(x,y-50,"Controllers",o_text_dialogue))
+	{
+		
+		if (is_undefined(global.security_clearance[? argument[1]])) 
+		{
+			text = ["Downloaded "+argument[1]+" Clearance!"];
+			global.security_clearance[? argument[1]] = true;	
+		}
+		else {
+			text = ["ERROR: CLEARANCE ALREADY DOWNLOADED"];
+		}
+		responses = ["None","None"];
+		length = string_length(text[0]);
+		totalItemsInArray = array_length(text);
+		x1 = x1Target;
+		x2 = x2Target;
+	}
+}
 
 
 //

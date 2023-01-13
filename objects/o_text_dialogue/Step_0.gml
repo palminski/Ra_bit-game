@@ -45,7 +45,7 @@ if advancetext
 			
 			if responsesExist
 			{
-				Script_Dialogue_Response(responses[1][responseSelected]);
+				Script_Dialogue_Response(responses[1][responseSelected],pass_with_response);
 			}
 			instance_destroy();
 			

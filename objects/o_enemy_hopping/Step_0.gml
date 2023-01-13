@@ -15,6 +15,15 @@ if (place_meeting(x+hspd_final,y,o_wall))
 hspd_final = 0;
 move_direction = -move_direction;
 }
+if (place_meeting(x+hspd_final,y,o_portal))
+{	
+	while (!place_meeting(x+sign(hspd_final),y,o_portal)) 
+	{
+		x += sign(hspd_final);
+	}
+hspd_final = 0;
+move_direction = -move_direction;
+}
 
 //VERTICAl
 if (place_meeting(x,y+vspd_final,o_wall))
