@@ -61,7 +61,7 @@
 -2147483648,-2,4,-9,-2147483648,-5,0,-7,-2147483648,4,9,2,6,11,-12,-2147483648,-2,0,-6,-2147483648,4,4,-2147483648,4,4,
 -9,-2147483648,4,0,9,6,-2147483648,-4,0,-4,-2147483648,4,9,8,6,11,-7,-2147483648,-3,0,3,-2147483648,9,-2147483648,-4,
 0,-5,-2147483648,2,1,7,-7,-2147483648,],},"visible":false,"depth":800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_lab","tilesetId":{"name":"tileset_lab","path":"tilesets/tileset_lab/tileset_lab.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":25,"SerialiseHeight":15,"TileCompressedData":[
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_lab","tilesetId":{"name":"tileset_lab_deco","path":"tilesets/tileset_lab_deco/tileset_lab_deco.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":25,"SerialiseHeight":15,"TileCompressedData":[
 -19,-2147483648,-5,2,1,7,-24,-2147483648,1,2,-24,-2147483648,1,2,-24,-2147483648,1,2,-24,-2147483648,1,2,-7,-2147483648,9,
 2,6,6,27,24,26,27,25,27,-16,-2147483648,2,2,27,-17,-2147483648,3,25,26,27,-25,-2147483648,1,2,-17,
 -2147483648,1,28,-5,-2147483648,2,4,10,-24,-2147483648,-2,2,1,10,-34,-2147483648,1,28,-37,-2147483648,2,24,2,-24,-2147483648,

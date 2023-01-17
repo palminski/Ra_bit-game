@@ -7,10 +7,10 @@ view_w_half = camera_get_view_width(cam) * 0.5;
 view_h_half = camera_get_view_height(cam) * 0.5;
 
 
-global.partical_system = part_system_create();
-part_system_depth(global.partical_system, -100);
+global.partical_system = part_system_create_layer("Interactables",false);
+//part_system_depth(global.partical_system, -100);
 
-
+show_debug_message(part_system_get_layer(global.partical_system));
 
 
 
@@ -24,3 +24,4 @@ if !object_exists(o_blood_controller)
 {
 instance_create_depth(x,y,0,o_blood_controller);	
 }
+

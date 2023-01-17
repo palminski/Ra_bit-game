@@ -1,4 +1,5 @@
 keyspace = keyboard_check_pressed(vk_space);
+part_particles_create(global.partical_system,x+18,y+18,global.part_blue_aura,2);
 
 if (keyspace)
 {
