@@ -1,32 +1,31 @@
-keyspace = keyboard_check_pressed(vk_space);
 
-if (keyspace)
-{
-	if global.roomtype = ROOMTYPE.BLUE
-	{
-		image_index = 4;
-	}
-	if global.roomtype != ROOMTYPE.BLUE
-	{
-		image_index = 1;
-	}
-}
 
-if ((image_index >= 3) && (image_index < 4)) || ((image_index >= 0) && (image_index < 1))
-{
-	image_speed = 0;	
-}
-else
-{
-	image_speed = 1;
-}
-	
 
-	if (image_index >= 0) && (image_index < 2)
+
+if global.roomtype = ROOMTYPE.RED
 	{
-	mask_index = s_wall_blue_active;
+		mask_index = s_wall_blue;
+		part_particles_create(global.partical_system,x+18,y+18,global.part_red_aura,1);
+		if (image_index >= 1 ) {
+			image_speed = -1;
+		}
+		else {
+			image_speed = 0;
+		}
 	}
-else
-{
-	mask_index = s_empty;
-}
+	if global.roomtype != ROOMTYPE.RED
+	{
+		mask_index = s_empty;
+		part_particles_create(global.partical_system,x+18,y+18,global.part_faded_red_aura,1);
+		if (image_index <= 4 ) {
+			image_speed = 1;
+		}
+		else {
+			image_speed = 0;
+		}
+	}
+
+
+
+
+

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_wall_blue",
   "spriteId": {
-    "name": "s_wall_blue_active",
-    "path": "sprites/s_wall_blue_active/s_wall_blue_active.yy",
+    "name": "s_wall_blue",
+    "path": "sprites/s_wall_blue/s_wall_blue.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,6 +30,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
