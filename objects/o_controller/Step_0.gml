@@ -22,10 +22,12 @@ if instance_exists(o_rabit) && (keyspace) && o_rabit.hascontrol && !byDialogueTr
 		{
 			global.roomtype = ROOMTYPE.RED;
 
+
 		}
 		else
 		{
 			global.roomtype = ROOMTYPE.BLUE;
+
 		}
 	}
 }

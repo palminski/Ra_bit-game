@@ -2,11 +2,7 @@
 // You can write your code in this editor
 
 
+flicker = true;
 
 
-
-
-
-		draw_self();
-		
 

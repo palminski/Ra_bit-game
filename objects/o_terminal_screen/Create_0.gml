@@ -6,7 +6,4 @@
 
 
 
-
-		draw_self();
-		
-
+flicker = true;
