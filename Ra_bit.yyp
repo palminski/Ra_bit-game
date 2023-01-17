@@ -158,6 +158,7 @@
     {"id":{"name":"Room_1_1_a","path":"rooms/Room_1_1_a/Room_1_1_a.yy",},"order":0,},
     {"id":{"name":"s_wall_blue_inactive","path":"sprites/s_wall_blue_inactive/s_wall_blue_inactive.yy",},"order":2,},
     {"id":{"name":"s_platform_moving_blue_inactive","path":"sprites/s_platform_moving_blue_inactive/s_platform_moving_blue_inactive.yy",},"order":10,},
+    {"id":{"name":"s_wall_blue","path":"sprites/s_wall_blue/s_wall_blue.yy",},"order":14,},
     {"id":{"name":"o_movingwal_parent","path":"objects/o_movingwal_parent/o_movingwal_parent.yy",},"order":11,},
     {"id":{"name":"s_enemy_eye_red","path":"sprites/s_enemy_eye_red/s_enemy_eye_red.yy",},"order":1,},
   ],
