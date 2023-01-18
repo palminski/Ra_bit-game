@@ -1,32 +1,30 @@
-keyspace = keyboard_check_pressed(vk_space);
-
-if (keyspace)
-{
-	if global.roomtype = ROOMTYPE.BLUE
+if global.roomtype = ROOMTYPE.RED
 	{
-		image_index = 4;
+		
+		
+		if (image_index >= 1 ) {
+			image_speed = -1;
+		}
+		else {
+			image_speed = 0;
+		}
 	}
-	if global.roomtype != ROOMTYPE.BLUE
+	if global.roomtype != ROOMTYPE.RED
 	{
-		image_index = 1;
+		
+		
+		if (image_index <= 4 ) {
+			image_speed = 1;
+		}
+		else {
+			image_speed = 0;
+		}
 	}
-}
 
-if ((image_index >= 3) && (image_index < 4)) || ((image_index >= 0) && (image_index < 1))
-{
-	image_speed = 0;	
+if image_index < 1 {
+	mask_index = s_spike;
 }
 else
 {
-	image_speed = 1;
-}
-	
-if global.roomtype = ROOMTYPE.BLUE
-{
 	mask_index = s_empty;
-}
-if global.roomtype != ROOMTYPE.BLUE
-{
-	
-	mask_index = s_spike_blue_active;
 }
