@@ -26,7 +26,14 @@
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Entities","instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21250348_6_1_1","properties":[],"isDnd":false,"objectId":{"name":"o_rabit","path":"objects/o_rabit/o_rabit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":704.0,},
           ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-        {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactables","instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+        {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactables","instances":[
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40FA3DF8","properties":[],"isDnd":false,"objectId":{"name":"o_coin","path":"objects/o_coin/o_coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":360.0,"y":720.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1F61D8CE","properties":[],"isDnd":false,"objectId":{"name":"o_coin","path":"objects/o_coin/o_coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":396.0,"y":720.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4444AC4","properties":[],"isDnd":false,"objectId":{"name":"o_coin","path":"objects/o_coin/o_coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":432.0,"y":720.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_74FD0C9C","properties":[],"isDnd":false,"objectId":{"name":"o_coin","path":"objects/o_coin/o_coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":468.0,"y":720.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_45E5752B","properties":[],"isDnd":false,"objectId":{"name":"o_coin","path":"objects/o_coin/o_coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":576.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6AA8C9F6","properties":[],"isDnd":false,"objectId":{"name":"o_coin","path":"objects/o_coin/o_coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":612.0,"y":576.0,},
+          ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":36,"gridY":36,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
       ],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Draw_Behind_Player","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6C6D7E5_6_1_1","properties":[],"isDnd":false,"objectId":{"name":"o_draw_veins","path":"objects/o_draw_veins/o_draw_veins.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":0.0,},
@@ -157,6 +164,12 @@
     {"name":"inst_2CA643EC","path":"rooms/Room_1_1/Room_1_1.yy",},
     {"name":"inst_2DCA369D","path":"rooms/Room_1_1/Room_1_1.yy",},
     {"name":"inst_47F659D2","path":"rooms/Room_1_1/Room_1_1.yy",},
+    {"name":"inst_40FA3DF8","path":"rooms/Room_1_1/Room_1_1.yy",},
+    {"name":"inst_1F61D8CE","path":"rooms/Room_1_1/Room_1_1.yy",},
+    {"name":"inst_4444AC4","path":"rooms/Room_1_1/Room_1_1.yy",},
+    {"name":"inst_74FD0C9C","path":"rooms/Room_1_1/Room_1_1.yy",},
+    {"name":"inst_45E5752B","path":"rooms/Room_1_1/Room_1_1.yy",},
+    {"name":"inst_6AA8C9F6","path":"rooms/Room_1_1/Room_1_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

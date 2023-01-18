@@ -17,4 +17,4 @@ fade_timer--;
 	fade_timer = fade_time;
 	part_particles_create(global.partical_system,x,y,global.part_enemy_bullet,1);
 //}
-repeat (5) instance_create_depth(x,y,1,o_enemy_bullet_particles);
+part_particles_create(global.partical_system,x,y,global.part_purple_aura,1);

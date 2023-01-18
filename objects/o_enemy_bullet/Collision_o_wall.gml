@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-repeat (100) instance_create_depth(x,y,1,o_enemy_bullet_particles);
+part_particles_create(global.partical_system,x,y,global.part_purple_aura_dissipate,75);
 instance_destroy(self);
