@@ -1,9 +1,9 @@
-if global.roomtype = ROOMTYPE.BLUE
+if global.roomtype = ROOMTYPE.RED
 {
-	image_index = 3;
+	image_index = 0;
 }
-if global.roomtype != ROOMTYPE.BLUE
+if global.roomtype != ROOMTYPE.RED
 {
 	
-	image_index = 0;
+	image_index = 3;
 }

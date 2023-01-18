@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_spike_blue",
   "spriteId": {
-    "name": "s_spike_blue_active",
-    "path": "sprites/s_spike_blue_active/s_spike_blue_active.yy",
+    "name": "s_spike_blue",
+    "path": "sprites/s_spike_blue/s_spike_blue.yy",
   },
   "solid": false,
   "visible": true,

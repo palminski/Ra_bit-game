@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_spike_red",
   "spriteId": {
-    "name": "s_spike_red_active",
-    "path": "sprites/s_spike_red_active/s_spike_red_active.yy",
+    "name": "s_spike_red",
+    "path": "sprites/s_spike_red/s_spike_red.yy",
   },
   "solid": false,
   "visible": true,

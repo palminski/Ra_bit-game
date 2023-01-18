@@ -12,6 +12,5 @@ if shot_cooldown >= shot_cooldown_max - 20
 }
 
 
-
-draw_self();
+event_inherited();
 shader_reset();
