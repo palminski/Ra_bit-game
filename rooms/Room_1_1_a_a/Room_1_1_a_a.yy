@@ -30,13 +30,11 @@
               ],"isDnd":false,"objectId":{"name":"o_enemy_hopping","path":"objects/o_enemy_hopping/o_enemy_hopping.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":397.0,"y":704.0,},
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2ED13AA7","properties":[
                 {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"invincibility_color","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"objectId":{"name":"o_enemy_parent","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"value":"red",},
-              ],"isDnd":false,"objectId":{"name":"o_enemy_hopping","path":"objects/o_enemy_hopping/o_enemy_hopping.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":704.0,},
-            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_32C7464C","properties":[
+              ],"isDnd":false,"objectId":{"name":"o_enemy_hopping","path":"objects/o_enemy_hopping/o_enemy_hopping.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":704.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1CC46816","properties":[
                 {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"invincibility_color","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"objectId":{"name":"o_enemy_parent","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"value":"red",},
-              ],"isDnd":false,"objectId":{"name":"o_enemy_floating","path":"objects/o_enemy_floating/o_enemy_floating.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":576.0,},
-            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_55B15564","properties":[
-                {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"invincibility_color","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"objectId":{"name":"o_enemy_parent","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"value":"blue",},
-              ],"isDnd":false,"objectId":{"name":"o_enemy_floating","path":"objects/o_enemy_floating/o_enemy_floating.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":800.0,"y":544.0,},
+                {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"max_hp","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"objectId":{"name":"o_enemy_parent","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"value":"3",},
+              ],"isDnd":false,"objectId":{"name":"o_enemy_hopping","path":"objects/o_enemy_hopping/o_enemy_hopping.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":704.0,},
           ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactables","instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_19CAF93E","properties":[
@@ -183,8 +181,7 @@
     {"name":"inst_6B90AE38","path":"rooms/Room_1_1_a_a/Room_1_1_a_a.yy",},
     {"name":"inst_691273A3","path":"rooms/Room_1_1_a_a/Room_1_1_a_a.yy",},
     {"name":"inst_2ED13AA7","path":"rooms/Room_1_1_a_a/Room_1_1_a_a.yy",},
-    {"name":"inst_32C7464C","path":"rooms/Room_1_1_a_a/Room_1_1_a_a.yy",},
-    {"name":"inst_55B15564","path":"rooms/Room_1_1_a_a/Room_1_1_a_a.yy",},
+    {"name":"inst_1CC46816","path":"rooms/Room_1_1_a_a/Room_1_1_a_a.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

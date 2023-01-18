@@ -1,20 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
-
-
-
 
 if other.falling && (other.y < y) && (other.invincibilityframes == 0) && !(invincibility_color = "red" && global.roomtype = ROOMTYPE.RED) && !(invincibility_color = "blue" && global.roomtype = ROOMTYPE.BLUE)
 {
-	
-	
 		damaged_frames = 15;
 		repeat (50) instance_create_depth(x,y,1,o_blood);
 		enemy_hp -= 1;
 		other.vspd = other.vspd_jump;
-	
 }
 else if (other.invincibilityframes == 0) && (damaged_frames <= 0)
 {

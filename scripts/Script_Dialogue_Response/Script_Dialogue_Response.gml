@@ -87,5 +87,13 @@ with (instance_create_layer(x,y-50,"Controllers",o_text_dialogue))
 }
 
 
-//
+//ROOM EVENTS
+if argument[0] == 21
+{
+	if (instance_exists(o_trapdoor))
+	{
+		o_trapdoor.state = TRAPDOORSTATE.OPEN;	
+	}
+}
+
 }
