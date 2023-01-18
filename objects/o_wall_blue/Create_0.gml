@@ -1,4 +1,4 @@
-if global.roomtype = ROOMTYPE.BLUE
+if global.roomtype = ROOMTYPE.RED
 	{
 		image_index = 4;
 	}
