@@ -156,6 +156,7 @@ y += vspd_final;
 if (place_meeting(x,y,o_solid_for_player)) 
 {
 	repeat (200) instance_create_depth(x,y,1,o_blood);
+	global.life -= 1;
 	y=yrespawn;
 	x=xrespawn;
 	
