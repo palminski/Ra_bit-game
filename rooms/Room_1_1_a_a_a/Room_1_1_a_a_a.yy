@@ -25,6 +25,8 @@
     {"resourceType":"GMRLayer","resourceVersion":"1.0","name":"Interactables_and_Entities","visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Entities","instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21250348_6_5","properties":[],"isDnd":false,"objectId":{"name":"o_rabit","path":"objects/o_rabit/o_rabit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":60.0,"y":155.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_71057395","properties":[],"isDnd":false,"objectId":{"name":"o_enemy_hopping","path":"objects/o_enemy_hopping/o_enemy_hopping.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":286.0,"y":477.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_24065A5D","properties":[],"isDnd":false,"objectId":{"name":"o_enemy_hopping","path":"objects/o_enemy_hopping/o_enemy_hopping.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":444.0,"y":477.0,},
           ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactables","instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5771161D","properties":[
@@ -148,6 +150,8 @@
     {"name":"inst_334286C1","path":"rooms/Room_1_1_a_a_a/Room_1_1_a_a_a.yy",},
     {"name":"inst_65417990","path":"rooms/Room_1_1_a_a_a/Room_1_1_a_a_a.yy",},
     {"name":"inst_590B10EF","path":"rooms/Room_1_1_a_a_a/Room_1_1_a_a_a.yy",},
+    {"name":"inst_71057395","path":"rooms/Room_1_1_a_a_a/Room_1_1_a_a_a.yy",},
+    {"name":"inst_24065A5D","path":"rooms/Room_1_1_a_a_a/Room_1_1_a_a_a.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
