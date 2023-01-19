@@ -26,7 +26,7 @@
 //		}
 //	}
 
-show_debug_message("Rabbit in");
+
 with (o_rabit)
 {
 	if (hascontrol)

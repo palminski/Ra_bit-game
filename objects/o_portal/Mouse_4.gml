@@ -1,4 +1,4 @@
-show_debug_message("MOUSE IN");
+
 
 if (other.GoToType = false)
 		{

@@ -21,7 +21,7 @@ if string_pos("{RESPONSE}",text[currentItemInArray])// && letters >= length
 {
 responsesVisable = RESPONSES_VISABLE.VISABLE;
 self.text[currentItemInArray] = string_delete(text[currentItemInArray],1,10);
-show_debug_message("deleted [responses]");
+
 responsesExist = 1;
 }
 if responsesVisable = RESPONSES_VISABLE.VISABLE
@@ -62,10 +62,7 @@ if advancetext
 			letters = 0;
 			h = string_height(text[currentItemInArray]);
 		}
-		//else if RESPONSES_VISABLE.VISABLE
-		//{
-		//	show_debug_message(string(responses[1][responseSelected]))
-		//}
+		
 	}
 	else
 	{
