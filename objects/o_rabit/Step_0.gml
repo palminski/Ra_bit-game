@@ -156,9 +156,10 @@ y += vspd_final;
 if (place_meeting(x,y,o_solid_for_player)) 
 {
 	repeat (200) instance_create_depth(x,y,1,o_blood);
+	global.life -= 1;
 	y=yrespawn;
 	x=xrespawn;
-	show_debug_message(string(y) + "  " +string(o_solid_for_player.y));
+	
 }
 
 if (invincibilityframes > 0)

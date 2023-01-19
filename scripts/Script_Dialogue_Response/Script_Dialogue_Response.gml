@@ -58,12 +58,15 @@ Slide_transition(TRANSITION_MODE.GOTO,target);
 
 //SECURITY CLEARANCE
 if argument[0] ==10 {
-	text = ["No Clearance Downloaded.", "Have a nice day!"];
-		responses = ["None","None"];
+	with (instance_create_layer(x,y-50,"Controllers",o_text_dialogue))
+	{
+		text = ["No Clearance Downloaded.", "Have a nice day!"];
 		length = string_length(text[0]);
 		totalItemsInArray = array_length(text);
 		x1 = x1Target;
 		x2 = x2Target;
+	}
+	
 }
 if argument[0] == 11
 {
@@ -73,6 +76,7 @@ with (instance_create_layer(x,y-50,"Controllers",o_text_dialogue))
 		if (is_undefined(global.security_clearance[? argument[1]])) 
 		{
 			text = ["Downloaded "+argument[1]+" Clearance!"];
+			
 			global.security_clearance[? argument[1]] = true;	
 		}
 		else {
@@ -96,4 +100,29 @@ if argument[0] == 21
 	}
 }
 
+
+//Augments / Power Ups
+if argument[0] == 31 
+{
+	with (instance_create_layer(x,y-50,"Controllers",o_text_dialogue))
+	
+	if (global.powerup = argument[1]) 
+		{
+			text = ["ERROR: AUGMENT ALREADY DOWNLOADED"];
+			length = string_length(text[0]);
+	totalItemsInArray = array_length(text);
+	x1 = x1Target;
+	x2 = x2Target;
+			
+		}
+		else {
+			text = ["AUGMENT DOWNLOADED"];
+			length = string_length(text[0]);
+	totalItemsInArray = array_length(text);
+	x1 = x1Target;
+	x2 = x2Target;
+			global.powerup	= argument[1];
+		}
+	
+}
 }
