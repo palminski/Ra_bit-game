@@ -25,7 +25,7 @@
     {"resourceType":"GMRLayer","resourceVersion":"1.0","name":"Interactables_and_Entities","visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Entities","instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21250348_6_6","properties":[],"isDnd":false,"objectId":{"name":"o_rabit","path":"objects/o_rabit/o_rabit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":352.0,},
-            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_63F5E727","properties":[],"isDnd":false,"objectId":{"name":"o_enemy_floating","path":"objects/o_enemy_floating/o_enemy_floating.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":224.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7DA3F1C3","properties":[],"isDnd":false,"objectId":{"name":"o_enemy_patrolling","path":"objects/o_enemy_patrolling/o_enemy_patrolling.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":448.0,},
           ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactables","instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
       ],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -71,7 +71,7 @@
     {"name":"inst_75F0A72_6","path":"rooms/Test_Room/Test_Room.yy",},
     {"name":"inst_3E359005_6","path":"rooms/Test_Room/Test_Room.yy",},
     {"name":"inst_65EFD320_6","path":"rooms/Test_Room/Test_Room.yy",},
-    {"name":"inst_63F5E727","path":"rooms/Test_Room/Test_Room.yy",},
+    {"name":"inst_7DA3F1C3","path":"rooms/Test_Room/Test_Room.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

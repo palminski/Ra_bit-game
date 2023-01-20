@@ -16,7 +16,7 @@ else if (other.invincibilityframes == 0) && (damaged_frames <= 0)
 	other.walljumpdelay = other.walljumpdelay_max;
 		if (other.hspd == 0)
 		{
-			other.hspd = 3 * 1;	
+			other.hspd = 3 * dir;	
 		}
 		else
 		{

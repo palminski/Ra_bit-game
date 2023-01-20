@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-var hspd_final = move_direction * hspd;
+var hspd_final = dir * hspd;
 var vspd_final = vspd;
 keyjump = keyboard_check_pressed(vk_numpad8);
 
@@ -13,7 +13,7 @@ if (place_meeting(x+hspd_final,y,o_wall))
 		x += sign(hspd_final);
 	}
 hspd_final = 0;
-move_direction = -move_direction;
+dir = -dir;
 }
 //VERTICAl
 if (place_meeting(x,y+vspd_final,o_wall))
@@ -50,7 +50,7 @@ if shot_cooldown >= shot_cooldown_max && instance_exists(o_rabit)
 
 //ANIMATION
 
-image_xscale = sign(move_direction)	
+image_xscale = sign(dir)	
 
 //Determin if the object is on screen
 on_screen = true;

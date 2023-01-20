@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-var hspd_final = move_direction * hspd;
+var hspd_final = dir * hspd;
 var vspd_final = vspd;
 keyjump = keyboard_check_pressed(vk_numpad8);
 onground = place_meeting(x,y+1,o_wall); 
@@ -13,7 +13,7 @@ if (place_meeting(x+hspd_final,y,o_wall))
 		x += sign(hspd_final);
 	}
 hspd_final = 0;
-move_direction = -move_direction;
+dir = -dir;
 }
 if (place_meeting(x+hspd_final,y,o_portal))
 {	
@@ -22,7 +22,7 @@ if (place_meeting(x+hspd_final,y,o_portal))
 		x += sign(hspd_final);
 	}
 hspd_final = 0;
-move_direction = -move_direction;
+dir = -dir;
 }
 
 //VERTICAl
@@ -53,14 +53,14 @@ vspd += grav;
 //JUMPING
 //Jump Up
 if onground 
-	&& place_meeting(x+move_direction*20*abs(hspd_final),y,o_wall) 
+	&& place_meeting(x+dir*20*abs(hspd_final),y,o_wall) 
 	{
-	if !place_meeting(x+move_direction*20*abs(hspd_final),y-100,o_wall)
+	if !place_meeting(x+dir*20*abs(hspd_final),y-100,o_wall)
 	{
 		
 		vspd = vspd_jump;
 	}
-	if !place_meeting(x+move_direction*20*abs(hspd_final),y-50,o_wall)
+	if !place_meeting(x+dir*20*abs(hspd_final),y-50,o_wall)
 	{
 		
 		vspd = vspd_jump*0.75;
@@ -68,7 +68,7 @@ if onground
 	
 	}
 //Jumping Down
-if  (onground)  && (!place_meeting(x+move_direction*20*abs(hspd_final),y+(1),o_wall))
+if  (onground)  && (!place_meeting(x+dir*20*abs(hspd_final),y+(1),o_wall))
 {	
 	vspd = vspd_jump*0.4;
 }
@@ -87,7 +87,7 @@ y += vspd_final;
 //}
 //ANIMATION
 
-image_xscale = sign(move_direction)	
+image_xscale = sign(dir)	
 
 //Determin if the object is on screen
 on_screen = true;

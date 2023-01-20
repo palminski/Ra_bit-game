@@ -8,7 +8,7 @@ if (other.invincibilityframes == 0)
 	other.invincibilityframes = other.invincibilityframe_max;
 	show_debug_message(dir)
 	other.walljumpdelay = other.walljumpdelay_max;
-		if (direction >= 0 && direction < 90) || (direction > 270 && direction < 359)
+		if (direction >= 0 && direction < 90) || (direction > 270 && direction < 360)
 		{
 			show_debug_message("right")
 			other.hspd = 3;	

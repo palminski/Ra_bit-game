@@ -1,5 +1,5 @@
 event_inherited();
-move_direction = 1;
+
 
 
 hspd = 1;
