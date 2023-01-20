@@ -48,3 +48,4 @@ vspd = clamp(vspd,-vspd_max,vspd_max);
 //update position
 x += _hspd_final;
 y += _vspd_final;
+image_xscale = sign(dir)	
