@@ -26,7 +26,8 @@
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Entities","instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21250348_6_4","properties":[],"isDnd":false,"objectId":{"name":"o_rabit","path":"objects/o_rabit/o_rabit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":51.0,"y":263.0,},
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41256DE0","properties":[],"isDnd":false,"objectId":{"name":"o_enemy_floating","path":"objects/o_enemy_floating/o_enemy_floating.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":160.0,},
-            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_20E31C8B","properties":[],"isDnd":false,"objectId":{"name":"o_enemy_hopping","path":"objects/o_enemy_hopping/o_enemy_hopping.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":416.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21322C0D","properties":[],"isDnd":false,"objectId":{"name":"o_enemy_patrolling","path":"objects/o_enemy_patrolling/o_enemy_patrolling.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":416.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40BA91B0","properties":[],"isDnd":false,"objectId":{"name":"o_enemy_patrolling","path":"objects/o_enemy_patrolling/o_enemy_patrolling.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":448.0,},
           ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactables","instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_414AD44F","properties":[],"isDnd":false,"objectId":{"name":"o_coin","path":"objects/o_coin/o_coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":488.0,"y":252.0,},
@@ -163,7 +164,6 @@
     {"name":"inst_77629B68","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},
     {"name":"inst_66F5D1E7","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},
     {"name":"inst_41256DE0","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},
-    {"name":"inst_20E31C8B","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},
     {"name":"inst_414AD44F","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},
     {"name":"inst_5EE2CEDB","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},
     {"name":"inst_7CBA0DE7","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},
@@ -176,6 +176,8 @@
     {"name":"inst_1E871725","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},
     {"name":"inst_641E609","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},
     {"name":"inst_57952450","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},
+    {"name":"inst_21322C0D","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},
+    {"name":"inst_40BA91B0","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

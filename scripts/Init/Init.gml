@@ -101,7 +101,7 @@ global.part_purple_aura = _p_purple_aura;
 var _p_purple_aura_dissipate = part_type_create();
 part_type_shape(_p_purple_aura_dissipate,pt_shape_square);
 part_type_scale(_p_purple_aura_dissipate,1,1);
-part_type_size(_p_purple_aura_dissipate,0.05,0.1,-0.001,0);
+part_type_size(_p_purple_aura_dissipate,0.15,0.2,-0.001,0);
 part_type_alpha2(_p_purple_aura_dissipate,0.8,-0.3);
 part_type_speed(_p_purple_aura_dissipate,0	, 1 ,0,0);
 part_type_direction(_p_purple_aura_dissipate,0,359,0,0);

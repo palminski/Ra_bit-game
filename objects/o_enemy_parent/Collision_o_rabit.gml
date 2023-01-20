@@ -32,5 +32,6 @@ if damaged_frames >= 0 {
 
 if enemy_hp <= 0 {
 	repeat (200) instance_create_depth(x,y,1,o_blood);
-instance_destroy();	
+	instance_destroy();	
+	global.score += points;
 }
