@@ -16,7 +16,7 @@ else if (other.invincibilityframes == 0) && (damaged_frames <= 0)
 	other.walljumpdelay = other.walljumpdelay_max;
 		if (other.hspd == 0)
 		{
-			other.hspd = 3 * 1;	
+			other.hspd = 3 * dir;	
 		}
 		else
 		{
@@ -32,5 +32,6 @@ if damaged_frames >= 0 {
 
 if enemy_hp <= 0 {
 	repeat (200) instance_create_depth(x,y,1,o_blood);
-instance_destroy();	
+	instance_destroy();	
+	global.score += points;
 }
