@@ -43,7 +43,7 @@ draw_text_transformed(_statusBarX +3 ,_statusBarY+32, global.powerup,0.5,0.5,0);
 draw_set_color(#0D4219);
 draw_rectangle(o_camera.x + o_camera.view_w_half - 72*3 + 135,_statusBarY+36,o_camera.x + o_camera.view_w_half - 72*3 + 213,_statusBarY+41,false)
 draw_set_color(#00FF00);
-draw_rectangle(o_camera.x + o_camera.view_w_half - 72*3 + 135,_statusBarY+36,o_camera.x + o_camera.view_w_half - 72*3 + 150,_statusBarY+41,false)
+draw_rectangle(o_camera.x + o_camera.view_w_half - 72*3 + 135,_statusBarY+36,o_camera.x + o_camera.view_w_half - 72*3 + 135 + (78*(global.toExtraHealth/20)),_statusBarY+41,false)
 
 //Score
 
