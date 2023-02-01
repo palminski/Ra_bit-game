@@ -1,6 +1,7 @@
 global.roomtype = ROOMTYPE.BLUE;
 global.score = 0;
 global.life = 5;
+global.maxLife = 5;
 global.level = 0;
 global.powerup = "none";
 //global.stages = 

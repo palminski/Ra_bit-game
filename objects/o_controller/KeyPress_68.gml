@@ -1,2 +1,2 @@
 
-room_goto(DeathRoom);
+global.maxLife += 1;
