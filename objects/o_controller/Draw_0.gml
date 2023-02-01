@@ -37,8 +37,15 @@ DrawSetText(c_black,f_score,fa_left,fa_top);
 draw_set_color(#00FF00);
 draw_text_transformed(_statusBarX +3 ,_statusBarY+32, global.powerup,0.5,0.5,0);
 
-//Score
-DrawSetText(c_black,f_score,fa_left,fa_top);
-draw_text_ext(o_camera.x + o_camera.view_w_half - 72*3 + 110,_statusBarY,string(global.score),30,1.8*o_camera.view_w_half);
+
+
+//draw life up bar
+draw_set_color(#0D4219);
+draw_rectangle(o_camera.x + o_camera.view_w_half - 72*3 + 135,_statusBarY+36,o_camera.x + o_camera.view_w_half - 72*3 + 213,_statusBarY+41,false)
 draw_set_color(#00FF00);
+draw_rectangle(o_camera.x + o_camera.view_w_half - 72*3 + 135,_statusBarY+36,o_camera.x + o_camera.view_w_half - 72*3 + 150,_statusBarY+41,false)
+
+//Score
+
+
 draw_text_ext(o_camera.x + o_camera.view_w_half - 72*3 + 110,_statusBarY-1, string(global.score),30,1.8*o_camera.view_w_half);
