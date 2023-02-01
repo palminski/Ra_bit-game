@@ -1,2 +1,6 @@
 
-global.maxLife += 1;
+
+if (global.maxLife < 15)
+{
+	global.maxLife += 1;
+}

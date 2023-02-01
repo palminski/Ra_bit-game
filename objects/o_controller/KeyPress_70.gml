@@ -6,5 +6,4 @@
 if (global.life +1 <= global.maxLife) {
 	global.life += 1;	
 }
-global.score += 100000
 
