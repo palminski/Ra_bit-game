@@ -1,2 +1,6 @@
 
-room_goto(DeathRoom);
+
+if (global.maxLife < 15)
+{
+	global.maxLife += 1;
+}

@@ -1,8 +1,11 @@
 global.roomtype = ROOMTYPE.BLUE;
 global.score = 0;
 global.life = 5;
+global.maxLife = 5;
+global.toExtraHealth = 0;
+
 global.level = 0;
-global.powerup = "none";
+global.powerup = "";
 //global.stages = 
 //[
 //[Room_1_1,Room_1_2,Room_1_3,Room_1_4],

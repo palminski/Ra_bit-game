@@ -3,6 +3,13 @@ var background = layer_background_get_id(layer_get_id("Background"));
 var bg_color = layer_background_get_id(layer_get_id("Background_Color"));
 layer_background_blend(background, c_white)
 keyspace = keyboard_check_pressed(vk_space);
+//managing to extra health variable
+if (global.toExtraHealth >= 20 && global.life < global.maxLife) {
+	global.toExtraHealth = 0;	
+
+	global.life += 1;	
+
+}
 
 //checking if by dialogue trigger
 byDialogueTrigger = false;

@@ -77,6 +77,6 @@ x2 = lerp(x2,x2Target,lerpProgress);
 
 x1Target = o_camera.x - o_camera.view_w_half;
 x2Target = 2*o_camera.view_w_half;
-y2 = 0.5*o_camera.view_h_half;
-y1 = o_camera.y + 0.5*o_camera.view_h_half;
+//y2 = 0.5*o_camera.view_h_half;
+//y1 = o_camera.y + 0.5*o_camera.view_h_half;
 
