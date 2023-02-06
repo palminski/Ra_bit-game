@@ -4,6 +4,6 @@
 
 
 
-
+image_speed=0;
 
 flicker = true;

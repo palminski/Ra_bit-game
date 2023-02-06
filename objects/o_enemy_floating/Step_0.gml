@@ -28,25 +28,28 @@ vspd = -vspd;
 }
 
 
-
-x += hspd_final;
-y += vspd_final;
-
-//Shopoting
-if on_screen
-{
-	shot_cooldown ++;
-}
-if shot_cooldown >= shot_cooldown_max && instance_exists(o_rabit)
-{
-	shot_cooldown = 0;
-	repeat (100) instance_create_depth(x,y,1,o_enemy_bullet_particles);
-	with instance_create_layer(x,y,"Entities",o_enemy_bullet)
+if (!instance_exists(o_text_dialogue)) {
+	x += hspd_final;
+	y += vspd_final;
+	//Shooting
+	if on_screen
 	{
-		dir = -1;
-		direction = point_direction(x,y,o_rabit.x,o_rabit.y);
+		shot_cooldown ++;
+	}
+	if shot_cooldown >= shot_cooldown_max && instance_exists(o_rabit)
+	{
+		shot_cooldown = 0;
+		repeat (100) instance_create_depth(x,y,1,o_enemy_bullet_particles);
+		with instance_create_layer(x,y,"Entities",o_enemy_bullet)
+		{
+			dir = -1;
+			direction = point_direction(x,y,o_rabit.x,o_rabit.y);
+		}
 	}
 }
+
+
+
 
 //ANIMATION
 

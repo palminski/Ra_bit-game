@@ -34,7 +34,7 @@ if responsesVisable = RESPONSES_VISABLE.VISABLE
 
 
 //Draw text
-DrawSetText(c_black,f_dialogue,fa_center,fa_top);
+DrawSetText(c_black,f_digital,fa_center,fa_top);
 draw_text_ext(o_camera.x,o_camera.y + 0.55*o_camera.view_h_half + boarder, _print,30,1.8*o_camera.view_w_half);
 draw_set_color(c_lime);
 draw_text_ext(o_camera.x,o_camera.y + 0.55*o_camera.view_h_half - 1 + boarder, _print,30,1.8*o_camera.view_w_half);
