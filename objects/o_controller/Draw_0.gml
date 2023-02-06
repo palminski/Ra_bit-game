@@ -33,7 +33,7 @@ for (var i = 0; i < global.life; i +=1)
 		_spacing += 7;
 }
 //Augment
-DrawSetText(c_black,f_score,fa_left,fa_top);
+DrawSetText(c_black,f_digital,fa_left,fa_top);
 draw_set_color(#00FF00);
 draw_text_transformed(_statusBarX +3 ,_statusBarY+32, global.powerup,0.5,0.5,0);
 
@@ -48,4 +48,4 @@ draw_rectangle(o_camera.x + o_camera.view_w_half - 72*3 + 135,_statusBarY+36,o_c
 //Score
 
 
-draw_text_ext(o_camera.x + o_camera.view_w_half - 72*3 + 110,_statusBarY-1, string(global.score),30,1.8*o_camera.view_w_half);
+draw_text_ext(o_camera.x + o_camera.view_w_half - 72*3 + 110,_statusBarY + 0, string(global.score),30,1.8*o_camera.view_w_half);
