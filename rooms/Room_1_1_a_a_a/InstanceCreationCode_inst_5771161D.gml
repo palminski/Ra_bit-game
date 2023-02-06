@@ -1,2 +1,2 @@
 text = ["DOWNLOAD TERMINAL\nAugment: ["+data_to_pass + "]","WARNING\nDownloading Augment will remove current augment","{RESPONSE}Download "+data_to_pass+"?"];
-responses = [["Download "+ data_to_pass,"Abort"],[31,0]];
+responses = [["Download","Abort"],[31,0]];

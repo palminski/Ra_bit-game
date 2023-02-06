@@ -52,7 +52,7 @@ vspd += grav;
 
 //JUMPING
 //Jump Up
-if onground 
+if onground && !instance_exists(o_text_dialogue)
 	&& place_meeting(x+dir*20*abs(hspd_final),y,o_wall) 
 	{
 	if !place_meeting(x+dir*20*abs(hspd_final),y-100,o_wall)
@@ -68,15 +68,19 @@ if onground
 	
 	}
 //Jumping Down
-if  (onground)  && (!place_meeting(x+dir*20*abs(hspd_final),y+(1),o_wall))
+if  (onground) && !instance_exists(o_text_dialogue)  &&  (!place_meeting(x+dir*20*abs(hspd_final),y+(1),o_wall))
 {	
 	vspd = vspd_jump*0.4;
 }
 
 vspd = clamp(vspd,-vspd_max,vspd_max);
 
-x += hspd_final;
-y += vspd_final;
+if !instance_exists(o_text_dialogue) || !onground{
+	x += hspd_final;
+	y += vspd_final;
+}
+	
+
 
 
 //Being Defeated

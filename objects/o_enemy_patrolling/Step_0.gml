@@ -46,6 +46,12 @@ if (!_onground)
 }
 vspd = clamp(vspd,-vspd_max,vspd_max);
 //update position
-x += _hspd_final;
+
+if !instance_exists(o_text_dialogue)
+{
+	x += _hspd_final;
+}
+
+
 y += _vspd_final;
 image_xscale = sign(dir)	
