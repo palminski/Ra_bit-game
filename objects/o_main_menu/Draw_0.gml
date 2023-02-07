@@ -33,11 +33,10 @@ draw_text_ext(25,10,abortText,30,700);
 }
 
 
-
 DrawSetText(c_green,f_digital,fa_center,fa_top);
-draw_text_ext(800,350, _print_menu,30,500);
+draw_text_ext(705,350, _print_menu,30,500);
 draw_set_color(c_lime);
-draw_text_ext(800,351,_print_menu,30,500);
+draw_text_ext(705,351,_print_menu,30,500);
 
 
 

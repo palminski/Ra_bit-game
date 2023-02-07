@@ -10,8 +10,8 @@
   "visible": true,
   "managed": true,
   "spriteMaskId": {
-    "name": "s_rabit_idle",
-    "path": "sprites/s_rabit_idle/s_rabit_idle.yy",
+    "name": "s_rabit_main_menu",
+    "path": "sprites/s_rabit_main_menu/s_rabit_main_menu.yy",
   },
   "persistent": false,
   "parentObjectId": null,
