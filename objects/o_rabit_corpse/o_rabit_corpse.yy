@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_game_over",
-  "spriteId": null,
+  "name": "o_rabit_corpse",
+  "spriteId": {
+    "name": "s_rabit_dead",
+    "path": "sprites/s_rabit_dead/s_rabit_dead.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -27,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controllers, UI, and Renderers",
-    "path": "folders/Objects/Controllers, UI, and Renderers.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }

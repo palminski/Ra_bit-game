@@ -174,7 +174,11 @@ image_alpha = 1;
 //Lives
 if global.life <= 0
 {
-room_goto(DeathRoom);
+	if instance_exists(o_transition)
+	{
+		o_transition.playerSpawnX = o_camera.x-x
+	}
+room_goto(Main_Menu);
 }
 //Falling or Not
 falling = vspd_final > 0;
