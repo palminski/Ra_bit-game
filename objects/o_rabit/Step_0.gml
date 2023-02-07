@@ -176,9 +176,17 @@ if global.life <= 0
 {
 	if instance_exists(o_transition)
 	{
-		o_transition.playerSpawnX = o_camera.x-x
+		o_transition.playerSpawnX = o_camera.x-x;
+		o_transition.playerSpawnY = o_camera.y-y;
+		if sign(image_xscale) >0 {
+			o_transition.playerDirection = PLAYER_DIRECTION.RIGHT;
+		}
+		else
+		{
+			o_transition.playerDirection = PLAYER_DIRECTION.LEFT;
+		}
 	}
-room_goto(Main_Menu);
+room_goto(Death_Room);
 }
 //Falling or Not
 falling = vspd_final > 0;

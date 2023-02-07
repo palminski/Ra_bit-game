@@ -1,1 +1,1 @@
-Slide_transition(TRANSITION_MODE.RESTART);
+global.life = 0;
