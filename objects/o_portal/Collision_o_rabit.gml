@@ -60,6 +60,7 @@ if (target == HomeBase)
 				{
 					o_transition.playerSpawnX = newPlayerSpawnX;
 					o_transition.playerSpawnY = newPlayerSpawnY;
+					o_transition.showBars = true;
 					if (x >= room_width/2)
 						{
 							o_transition.playerDirection = PLAYER_DIRECTION.RIGHT;
