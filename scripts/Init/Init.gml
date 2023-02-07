@@ -109,6 +109,18 @@ part_type_color1(_p_purple_aura_dissipate,#FF00FF);
 part_type_gravity(_p_purple_aura_dissipate, 0.025,90);
 part_type_life(_p_purple_aura_dissipate,30,60);
 global.part_purple_aura_dissipate= _p_purple_aura_dissipate;
+
+var _p_green_aura_collected = part_type_create();
+part_type_shape(_p_green_aura_collected,pt_shape_square);
+part_type_scale(_p_green_aura_collected,1,1);
+part_type_size(_p_green_aura_collected,0.1,0.1,-0.001,0);
+part_type_alpha2(_p_green_aura_collected,0.8,-0.3);
+part_type_speed(_p_green_aura_collected,0, 1 ,0,0);
+part_type_direction(_p_green_aura_collected,0,359,0,0);
+part_type_color1(_p_green_aura_collected,c_lime);
+part_type_gravity(_p_green_aura_collected, 0.025,90);
+part_type_life(_p_green_aura_collected,30,60);
+global.part_green_aura_collected = _p_green_aura_collected;
 //
 
 

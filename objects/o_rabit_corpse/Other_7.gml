@@ -5,5 +5,5 @@
 
 
 image_index = -1
-part_particles_create(global.partical_system,x,y,global.part_yellow_aura_collected,time);
+part_particles_create(global.partical_system,x,y,global.part_green_aura_collected,0.5*time);
 image_alpha = 0;

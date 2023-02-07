@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_rabit_corpse",
   "spriteId": {
-    "name": "s_rabit_dead",
-    "path": "sprites/s_rabit_dead/s_rabit_dead.yy",
+    "name": "s_rabit_corpse",
+    "path": "sprites/s_rabit_corpse/s_rabit_corpse.yy",
   },
   "solid": false,
   "visible": true,
