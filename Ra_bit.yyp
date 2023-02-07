@@ -98,7 +98,7 @@
     {"id":{"name":"o_trapdoor_blue","path":"objects/o_trapdoor_blue/o_trapdoor_blue.yy",},"order":9,},
     {"id":{"name":"o_trigger_trapdoor","path":"objects/o_trigger_trapdoor/o_trigger_trapdoor.yy",},"order":7,},
     {"id":{"name":"o_game_start","path":"objects/o_game_start/o_game_start.yy",},"order":12,},
-    {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
+    {"id":{"name":"f_menu","path":"fonts/f_menu/f_menu.yy",},"order":0,},
     {"id":{"name":"f_prism_runes","path":"fonts/f_prism_runes/f_prism_runes.yy",},"order":2,},
     {"id":{"name":"s_tileset_background","path":"sprites/s_tileset_background/s_tileset_background.yy",},"order":4,},
     {"id":{"name":"s_wall_red","path":"sprites/s_wall_red/s_wall_red.yy",},"order":15,},
