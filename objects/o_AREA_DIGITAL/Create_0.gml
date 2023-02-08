@@ -3,8 +3,6 @@
 
 
 
-shader_set(shader_digital);
-draw_self();
-shader_reset();
+surfaceDigital = surface_create(sprite_width,sprite_height)
 
 

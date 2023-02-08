@@ -15,6 +15,6 @@ if (invincibility_color = "red" && global.roomtype = ROOMTYPE.RED) {
 draw_self();
 image_blend = c_white;
 
-shader_set(shader_digital);
-draw_self();
-shader_reset();
+//shader_set(shader_digital);
+//	draw_self();
+//shader_reset();
