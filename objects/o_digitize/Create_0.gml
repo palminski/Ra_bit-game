@@ -3,6 +3,6 @@
 
 
 
-surfaceDigital = surface_create(sprite_width,sprite_height)
 
 
+depth = 100;
