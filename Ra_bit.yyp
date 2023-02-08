@@ -130,6 +130,7 @@
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},"order":10,},
     {"id":{"name":"o_controller","path":"objects/o_controller/o_controller.yy",},"order":2,},
     {"id":{"name":"o_terminal_screen","path":"objects/o_terminal_screen/o_terminal_screen.yy",},"order":7,},
+    {"id":{"name":"shader_digital","path":"shaders/shader_digital/shader_digital.yy",},"order":3,},
     {"id":{"name":"o_spike_parent","path":"objects/o_spike_parent/o_spike_parent.yy",},"order":0,},
     {"id":{"name":"Approach","path":"scripts/Approach/Approach.yy",},"order":0,},
     {"id":{"name":"s_platform","path":"sprites/s_platform/s_platform.yy",},"order":4,},

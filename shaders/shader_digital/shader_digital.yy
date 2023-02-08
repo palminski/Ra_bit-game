@@ -1,7 +1,7 @@
 {
   "resourceType": "GMShader",
   "resourceVersion": "1.0",
-  "name": "shader_interactable_outline",
+  "name": "shader_digital",
   "type": 1,
   "parent": {
     "name": "Shaders",
