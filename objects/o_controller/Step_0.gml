@@ -22,7 +22,7 @@ if (instance_exists(o_dialogue_parent) && instance_exists(o_rabit) && point_in_c
 //Swapping state of Room
 if instance_exists(o_rabit) && (keyspace) && o_rabit.hascontrol && !byDialogueTrigger
 {
-	if recharge == 0 
+	if recharge == 0 && (!place_meeting(o_rabit.x,o_rabit.y,o_digitize))
 	{
 		recharge = 7;
 		if (global.roomtype == ROOMTYPE.BLUE )
