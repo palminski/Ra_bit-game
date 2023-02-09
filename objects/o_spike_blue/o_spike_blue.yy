@@ -34,7 +34,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "spikes",
-    "path": "folders/Objects/spikes.yy",
+    "name": "Toggleables",
+    "path": "folders/Objects/Level Building/Toggleables.yy",
   },
 }

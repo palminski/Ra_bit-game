@@ -1,8 +1,8 @@
 {
-  "spriteId": {
-    "name": "s_tileset_veins",
-    "path": "sprites/s_tileset_veins/s_tileset_veins.yy",
-  },
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tileset_veins",
+  "spriteId": null,
   "tileWidth": 36,
   "tileHeight": 36,
   "tilexoff": 0,
@@ -47,8 +47,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tileset_veins",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

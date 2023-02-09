@@ -18,7 +18,7 @@ if place_meeting(x,y-(sign(image_xscale)*pixelsPerFrame),o_rabit) && (image_xsca
 			{
 				if (global.roomtype == ROOMTYPE.BLUE)
 				{
-					show_debug_message("Going Up!");
+					
 					o_rabit.y -= (sign(image_xscale)*pixelsPerFrame)*ceil(open_speed);
 				}
 			}

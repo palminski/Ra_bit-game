@@ -22,7 +22,7 @@ if (instance_exists(o_dialogue_parent) && instance_exists(o_rabit) && point_in_c
 //Swapping state of Room
 if instance_exists(o_rabit) && (keyspace) && o_rabit.hascontrol && !byDialogueTrigger
 {
-	if recharge == 0 && (!place_meeting(o_rabit.x,o_rabit.y,o_digitize))
+	if recharge == 0 && (!position_meeting(o_rabit.x,o_rabit.y,o_digitize))
 	{
 		recharge = 7;
 		if (global.roomtype == ROOMTYPE.BLUE )
@@ -57,3 +57,5 @@ else
 	layer_background_blend(background, $3232A8);
 	layer_background_blend(bg_color, $3232A8);
 }
+
+

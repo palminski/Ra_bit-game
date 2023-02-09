@@ -10,7 +10,7 @@ if (letters < length)
 }
 else
 {
-	menuOptions = ["ACTIVATE","INFO","ABORT"]
+	menuOptions = ["ACTIVATE","INFO","DEV START","ABORT"]
 }
 text_current = string_copy(text,1,floor(letters));
 

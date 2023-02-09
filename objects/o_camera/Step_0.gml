@@ -30,7 +30,4 @@ if (layer_exists("Backgrounds_1"))
 
 
 //}
-show_debug_message("Camera X - ");
-show_debug_message(x-view_w_half);
-//show_debug_message("Camera Y - ");
-//show_debug_message(y-view_h_half);
+

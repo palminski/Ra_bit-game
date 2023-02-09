@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Text",
-    "path": "folders/Objects/Controllers, UI, and Renderers/Text.yy",
+    "name": "Interactables",
+    "path": "folders/Objects/Level Building/Interactables.yy",
   },
 }

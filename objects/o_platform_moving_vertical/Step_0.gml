@@ -51,6 +51,6 @@ if place_meeting(x,y,o_rabit)
 {
 
 o_rabit.y += vspd;
-show_debug_message(string(o_rabit.y) + string(y))
+
 }
 

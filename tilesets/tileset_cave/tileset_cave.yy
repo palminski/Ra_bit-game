@@ -1,8 +1,8 @@
 {
-  "spriteId": {
-    "name": "s_tileset_cave",
-    "path": "sprites/s_tileset_cave/s_tileset_cave.yy",
-  },
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tileset_cave",
+  "spriteId": null,
   "tileWidth": 36,
   "tileHeight": 36,
   "tilexoff": 0,
@@ -19,7 +19,7 @@
   "out_columns": 7,
   "tile_count": 48,
   "autoTileSets": [
-    {"tiles":[
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"cave","tiles":[
         47,
         1,
         2,
@@ -67,7 +67,7 @@
         44,
         45,
         46,
-      ],"closed_edge":false,"resourceVersion":"1.0","name":"cave","tags":[],"resourceType":"GMAutoTileSet",},
+      ],"closed_edge":false,},
   ],
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
@@ -133,8 +133,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tileset_cave",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

@@ -35,32 +35,13 @@ with (o_rabit)
 	}
 }
 
-if (target == HomeBase)
-		{
 
-			//Moves player to random room in level or increases leven
-			if array_length(global.stages[global.level]) > 0
-			{
-				var selectedRoom = irandom(array_length(global.stages[global.level])-1);
-				target = global.stages[global.level][selectedRoom];
-				array_delete(global.stages[global.level],selectedRoom,1);
-			}
-			else
-			{
-				global.level += 1;
-				target = Break_Room;
-			}
-			Slide_transition(TRANSITION_MODE.GOTO,target);
-			
-		}
-		else
-		{
 			Slide_transition(TRANSITION_MODE.GOTO,target);
 			if instance_exists(o_transition) 
 				{
 					o_transition.playerSpawnX = newPlayerSpawnX;
 					o_transition.playerSpawnY = newPlayerSpawnY;
-					o_transition.showBars = true;
+	
 					if (x >= room_width/2)
 						{
 							o_transition.playerDirection = PLAYER_DIRECTION.RIGHT;
@@ -70,4 +51,4 @@ if (target == HomeBase)
 							o_transition.playerDirection = PLAYER_DIRECTION.LEFT;
 						}
 				}
-		}
+		

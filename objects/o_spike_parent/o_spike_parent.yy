@@ -30,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "spikes",
-    "path": "folders/Objects/spikes.yy",
+    "name": "Parents",
+    "path": "folders/Objects/Parents.yy",
   },
 }

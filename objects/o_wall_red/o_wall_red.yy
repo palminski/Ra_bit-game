@@ -35,7 +35,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "walls",
-    "path": "folders/Objects/walls.yy",
+    "name": "Toggleables",
+    "path": "folders/Objects/Level Building/Toggleables.yy",
   },
 }
