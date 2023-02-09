@@ -47,5 +47,9 @@ abortText = @"==[ ABORT ]==
 EXIT TERMINAL DISPLAY AND RETURN TO DESKTOP?
 Select [ABORT] To EXIT
 ";
+
+devText = @"==[ DEV ]==
+WELCOME ADMIN [WILL]
+";
 length = string_length(text);
 
