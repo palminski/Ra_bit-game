@@ -1,0 +1,2 @@
+text = ["WARNING\nAs a result of increased hostile neurological activity the exit hatch to this room has been sealed","Exit can be opened from this terminal, but upon leaving it will be re-sealed as a precaution against hostile ingress.","{RESPONSE}Open exit hatch?"];
+responses = [["Yes","No"],[21,0]];
