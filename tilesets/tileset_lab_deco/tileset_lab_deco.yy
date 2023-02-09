@@ -2,10 +2,7 @@
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
   "name": "tileset_lab_deco",
-  "spriteId": {
-    "name": "s_tileset_lab_deco",
-    "path": "sprites/s_tileset_lab_deco/s_tileset_lab_deco.yy",
-  },
+  "spriteId": null,
   "tileWidth": 36,
   "tileHeight": 36,
   "tilexoff": 0,

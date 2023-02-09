@@ -2,10 +2,7 @@
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
   "name": "tileset_digital",
-  "spriteId": {
-    "name": "s_tileset_digital",
-    "path": "sprites/s_tileset_digital/s_tileset_digital.yy",
-  },
+  "spriteId": null,
   "tileWidth": 36,
   "tileHeight": 36,
   "tilexoff": 0,

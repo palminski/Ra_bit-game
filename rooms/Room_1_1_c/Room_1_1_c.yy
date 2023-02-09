@@ -46,7 +46,6 @@
           ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
       ],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Draw_Behind_Player","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6C6D7E5_6_3_1","properties":[],"isDnd":false,"objectId":{"name":"o_draw_veins","path":"objects/o_draw_veins/o_draw_veins.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_317A5913_3_3_1","properties":[],"isDnd":false,"objectId":{"name":"o_blood_controller","path":"objects/o_blood_controller/o_blood_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":0.0,},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRLayer","resourceVersion":"1.0","name":"Tile_Layers","visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
@@ -123,7 +122,6 @@
     {"name":"inst_6FD043E4_4_1_1","path":"rooms/Room_1_1_c/Room_1_1_c.yy",},
     {"name":"inst_2E4EF15B_5_1_1","path":"rooms/Room_1_1_c/Room_1_1_c.yy",},
     {"name":"inst_21250348_6_3_1","path":"rooms/Room_1_1_c/Room_1_1_c.yy",},
-    {"name":"inst_6C6D7E5_6_3_1","path":"rooms/Room_1_1_c/Room_1_1_c.yy",},
     {"name":"inst_317A5913_3_3_1","path":"rooms/Room_1_1_c/Room_1_1_c.yy",},
     {"name":"inst_7704C89E_3_1","path":"rooms/Room_1_1_c/Room_1_1_c.yy",},
     {"name":"inst_75F0A72_3_1","path":"rooms/Room_1_1_c/Room_1_1_c.yy",},

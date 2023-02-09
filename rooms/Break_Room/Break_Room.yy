@@ -33,9 +33,7 @@
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_214897D0","properties":[],"isDnd":false,"objectId":{"name":"o_prism_dialogue","path":"objects/o_prism_dialogue/o_prism_dialogue.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":830.0,"y":332.0,},
           ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
       ],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Draw_Behind_Player","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6C6D7E5_3_1","properties":[],"isDnd":false,"objectId":{"name":"o_draw_veins","path":"objects/o_draw_veins/o_draw_veins.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":0.0,},
-      ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Draw_Behind_Player","instances":[],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRLayer","resourceVersion":"1.0","name":"Tile_Layers","visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
         {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_Grass","tilesetId":{"name":"tileset_pipes_grass","path":"tilesets/tileset_pipes_grass/tileset_pipes_grass.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":25,"SerialiseHeight":15,"TileCompressedData":[
 -160,-2147483648,1,49,-4,50,-20,-2147483648,1,56,-3,58,1,59,-36,-2147483648,-2,50,-19,-2147483648,8,50,51,-2147483648,-2147483648,
@@ -250,7 +248,6 @@
     {"name":"inst_228588FD_3_1","path":"rooms/Break_Room/Break_Room.yy",},
     {"name":"inst_295D5F61_3_1","path":"rooms/Break_Room/Break_Room.yy",},
     {"name":"inst_7D3FE289_3_1","path":"rooms/Break_Room/Break_Room.yy",},
-    {"name":"inst_6C6D7E5_3_1","path":"rooms/Break_Room/Break_Room.yy",},
     {"name":"inst_5F74135A_1","path":"rooms/Break_Room/Break_Room.yy",},
     {"name":"inst_44EDDE51_1","path":"rooms/Break_Room/Break_Room.yy",},
     {"name":"inst_DE81A61_1","path":"rooms/Break_Room/Break_Room.yy",},

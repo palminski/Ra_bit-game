@@ -56,9 +56,7 @@
 33,-16,-2147483648,-5,0,-40,-2147483648,1,26,-66,-2147483648,4,40,9,25,33,-35,-2147483648,3,40,9,10,-11,-2147483648,1,26,-24,-2147483648,2,16,10,-8,-2147483648,6,0,-2147483648,-2147483648,33,
 25,26,-21,-2147483648,4,24,43,33,2,-7,-2147483648,1,0,-4,-2147483648,1,35,-20,-2147483648,6,24,33,26,32,33,26,-4,-2147483648,1,24,-10,-2147483648,1,24,-25,-2147483648,1,24,
 -80,-2147483648,],},"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Draw_veins","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_44B46DB7_1","properties":[],"isDnd":false,"objectId":{"name":"o_draw_veins","path":"objects/o_draw_veins/o_draw_veins.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":128.0,},
-      ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Draw_veins","instances":[],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_Veins","tilesetId":{"name":"tileset_veins","path":"tilesets/tileset_veins/tileset_veins.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":38,"SerialiseHeight":22,"TileCompressedData":[
 -8,-2147483648,1,4,-37,-2147483648,1,4,-37,-2147483648,2,9,3,-35,-2147483648,4,1,8,6,8,-33,-2147483648,5,1,6,8,6,8,-33,-2147483648,4,4,9,8,6,-5,-2147483648,-4,
 0,-37,-2147483648,-2,0,-36,-2147483648,4,0,-2147483648,0,0,-38,-2147483648,1,0,-38,-2147483648,1,0,-37,-2147483648,-3,0,-17,-2147483648,-3,0,-4,-2147483648,3,4,-2147483648,4,-7,-2147483648,-4,0,
@@ -699,7 +697,6 @@
     {"name":"inst_35D14CA9_1","path":"rooms/CrossRoads/CrossRoads.yy",},
     {"name":"inst_7588DCD0_1","path":"rooms/CrossRoads/CrossRoads.yy",},
     {"name":"inst_451933DE_1","path":"rooms/CrossRoads/CrossRoads.yy",},
-    {"name":"inst_44B46DB7_1","path":"rooms/CrossRoads/CrossRoads.yy",},
     {"name":"inst_2C53E8AD_1","path":"rooms/CrossRoads/CrossRoads.yy",},
     {"name":"inst_8163A6A_1","path":"rooms/CrossRoads/CrossRoads.yy",},
     {"name":"inst_2A0A198E","path":"rooms/CrossRoads/CrossRoads.yy",},
