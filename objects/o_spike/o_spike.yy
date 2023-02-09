@@ -37,7 +37,7 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "spikes",
-    "path": "folders/Objects/spikes.yy",
+    "name": "Level Building",
+    "path": "folders/Objects/Level Building.yy",
   },
 }

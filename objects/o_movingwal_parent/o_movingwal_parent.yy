@@ -1,7 +1,11 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "o_movingwal_parent",
   "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,11 +25,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "walls",
-    "path": "folders/Objects/walls.yy",
+    "name": "Parents",
+    "path": "folders/Objects/Parents.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "o_movingwal_parent",
-  "tags": [],
-  "resourceType": "GMObject",
 }

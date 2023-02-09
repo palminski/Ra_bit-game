@@ -72,7 +72,7 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Level Building",
+    "path": "folders/Objects/Level Building.yy",
   },
 }

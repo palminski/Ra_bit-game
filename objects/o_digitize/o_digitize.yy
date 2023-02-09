@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Invisables",
+    "path": "folders/Objects/Level Building/Invisables.yy",
   },
 }

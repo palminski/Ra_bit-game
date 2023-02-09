@@ -69,7 +69,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Invisable Objects",
+    "path": "folders/Sprites/Invisable Objects.yy",
   },
 }

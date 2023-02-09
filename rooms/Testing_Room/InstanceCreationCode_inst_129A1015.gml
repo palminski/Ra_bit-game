@@ -1,2 +1,0 @@
-text = ["Hello World.","While that other Prism can only have 1 dialogue box, This Prism can have multiple! Clearly this makes it superior!","In fact, you can even respond to the text from this prism!","{RESPONSE} That's pretty nifty eh?"];
-responses = [["Yes","No"],[1,2]];
