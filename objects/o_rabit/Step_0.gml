@@ -1,4 +1,5 @@
-show_debug_message(place_meeting(x,y,o_digitize))
+
+
 #region Player Input
 if (hascontrol)
 {

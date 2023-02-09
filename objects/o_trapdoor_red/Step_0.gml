@@ -20,15 +20,15 @@ if (instance_exists(o_rabit))
 		{
 			if place_meeting(x,y-(sign(image_xscale)*pixelsPerFrame),o_rabit)
 			{
-				show_debug_message("player on top");
+				
 				if (global.roomtype == ROOMTYPE.BLUE && (image_xscale >= 1) && (image_xscale != closedXscale))
 				{
-					show_debug_message("Going Up!");
+					
 					o_rabit.y -= (sign(image_xscale)*pixelsPerFrame)*ceil(open_speed);
 				}
 				if (global.roomtype == ROOMTYPE.RED) && !place_meeting(x,y,o_rabit) && (image_xscale != 1)
 				{
-					show_debug_message("Going DOWN!");
+					
 					o_rabit.y += (sign(image_xscale)*pixelsPerFrame)*ceil(open_speed);
 					
 				}
@@ -39,7 +39,7 @@ if (instance_exists(o_rabit))
 		{
 			if place_meeting(x,y-(sign(image_xscale)*pixelsPerFrame),o_rabit)
 			{	
-			show_debug_message("Now touching from bottom");
+			
 			o_rabit.y -= (sign(image_xscale)*pixelsPerFrame)*ceil(open_speed);
 			}
 		}
@@ -72,7 +72,7 @@ if (global.roomtype = ROOMTYPE.RED)
 		//image_xscale = image_xscale + open_speed	;
 		if ((image_xscale + open_speed) > -1 -open_speed)
 			{
-				//show_debug_message("setting scale to 1");
+				
 				image_xscale = -1;		
 			}
 			else

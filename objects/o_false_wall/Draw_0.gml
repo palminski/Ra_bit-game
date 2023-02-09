@@ -5,7 +5,7 @@
 if instance_exists(o_rabit) && (global.powerup = "infiltrator")
 {
 	var _dist_to_player = sqrt(sqr(o_rabit.x - x) + sqr(o_rabit.y - y))
-	show_debug_message(_dist_to_player);
+	
 	
 	if (_dist_to_player <= range) {
 		if ((_dist_to_player/range)	> 0.5) {
