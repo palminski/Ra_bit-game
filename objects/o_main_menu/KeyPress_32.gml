@@ -18,11 +18,11 @@ if letters >= length {
 	global.security_clearance = ds_map_create();
 	global.security_clearance[? "default"] = true;
 		
-	Slide_transition(TRANSITION_MODE.GOTO,FirstHallway);
+	Slide_transition(TRANSITION_MODE.GOTO,HomeBaseDigital);
 			if instance_exists(o_transition) 
 				{
-					o_transition.playerSpawnX = 129;
-					o_transition.playerSpawnY = 371;
+					o_transition.playerSpawnX = 103;
+					o_transition.playerSpawnY = 227;
 				}
 	}
 
