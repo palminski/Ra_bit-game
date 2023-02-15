@@ -126,6 +126,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_711AD78E","properties":[],"isDnd":false,"objectId":{"name":"o_spike","path":"objects/o_spike/o_spike.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":108.0,"y":252.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C4F4C64","properties":[],"isDnd":false,"objectId":{"name":"o_spike","path":"objects/o_spike/o_spike.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-180.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":108.0,"y":288.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_20CA0BDA","properties":[],"isDnd":false,"objectId":{"name":"o_spike","path":"objects/o_spike/o_spike.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-180.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":72.0,"y":324.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F1E8CD5","properties":[],"isDnd":false,"objectId":{"name":"o_door","path":"objects/o_door/o_door.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":144.0,},
       ],"visible":true,"depth":1100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":36,"gridY":36,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Background_tiles","tilesetId":{"name":"tileset_pipes_grass","path":"tilesets/tileset_pipes_grass/tileset_pipes_grass.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":25,"SerialiseHeight":15,"TileCompressedData":[
 -182,-2147483648,1,52,-24,-2147483648,1,69,-22,-2147483648,2,1,2,-20,-2147483648,5,1,-2147483648,-2147483648,19,36,-3,-2147483648,2,19,
@@ -201,6 +202,7 @@
     {"name":"inst_711AD78E","path":"rooms/Room_1_1_a_a_a/Room_1_1_a_a_a.yy",},
     {"name":"inst_7C4F4C64","path":"rooms/Room_1_1_a_a_a/Room_1_1_a_a_a.yy",},
     {"name":"inst_20CA0BDA","path":"rooms/Room_1_1_a_a_a/Room_1_1_a_a_a.yy",},
+    {"name":"inst_2F1E8CD5","path":"rooms/Room_1_1_a_a_a/Room_1_1_a_a_a.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

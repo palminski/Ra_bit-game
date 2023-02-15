@@ -1,5 +1,8 @@
 /// @description Progess text and box
 
+
+
+
 //
 advancetext = keyboard_check_pressed(vk_space);
 keyUp = keyboard_check_pressed(vk_numpad8);

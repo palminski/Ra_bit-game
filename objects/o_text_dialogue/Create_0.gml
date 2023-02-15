@@ -2,7 +2,7 @@
 //TEXT BOX INFORMATION
 cam = view_camera[0];
 x1 = o_camera.x;
-y1 = o_camera.y + 0.5*o_camera.view_h_half;
+//y1 = o_camera.y + 0.5*o_camera.view_h_half;  //ADJUSTED DURING DRAW STEP NOW
 x2 = 0;
 y2 = 0.5*o_camera.view_h_half;
 x1Target = o_camera.x - o_camera.view_w_half;
