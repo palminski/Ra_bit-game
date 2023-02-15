@@ -1,5 +1,8 @@
 
 
+var _y1 = o_camera.y + 0.5*o_camera.view_h_half;
+
+
 //Draw a Box
 //draw_set_color(c_white);
 //draw_set_alpha (0.5);
@@ -8,7 +11,7 @@ var _print = string_copy(text_current,1,string_length(text_current));
 
 draw_sprite_stretched(s_text_box,1,
 x1, //X cord
-y1,							//Y cord
+_y1,							//Y cord
 x2,				//streatch width
 y2);				//streach height
 
