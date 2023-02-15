@@ -5,6 +5,11 @@
 if letters >= length {
 	if menuOptions[responseSelected] == "ACTIVATE" {
 		
+	ini_open("save_file.ini");
+	resets = ini_read_real("Story","Resets",776000)
+	ini_write_real("Story","Resets",resets+1);
+	ini_close();
+		
 	global.roomtype = ROOMTYPE.BLUE;
 	global.score = 0;
 	global.life = 5;

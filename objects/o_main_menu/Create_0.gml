@@ -8,6 +8,11 @@ if instance_exists(o_dev_testing_obj)
 }
 
 
+//Read ini file
+ini_open("save_file.ini");
+resets = string(ini_read_real("Story","Resets",776000)) 
+ini_close();
+
 menuOptions = []
 responseSelected = 0;
 
@@ -16,7 +21,7 @@ letters = 0;
 text = @"== [CRITICAL FAILURE DETECTED! ]==
 ACTIVATING FORCED LOOP RESET
 Resetting Loop...
-    --FORCED COMPLETION
+    --RESET NUMBER " + resets +@" SUCCESS
 Transcoding Neural Pathways...
     --COMPLETED WITH SOME ERRORS
 Rendering Transcoded Geometry...
