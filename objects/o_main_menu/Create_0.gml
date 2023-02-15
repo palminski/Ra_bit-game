@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-window_set_fullscreen(true);
+//window_set_fullscreen(true);
 
 if instance_exists(o_dev_testing_obj) 
 {
@@ -23,7 +23,7 @@ letters = 0;
 text = @"== [CRITICAL FAILURE DETECTED! ]==
 ACTIVATING FORCED LOOP RESET
 Resetting Loop...
-    --RESET NUMBER " + resets +@" SUCCESS
+    --RESET NUMBER [" + resets +@"] SUCCESS
 Transcoding Neural Pathways...
     --COMPLETED WITH SOME ERRORS
 Rendering Transcoded Geometry...
@@ -43,8 +43,8 @@ text_current = "";
 
 infoText = @"==[ Info ]==
 RESET NUMBER: " +resets+@"
-HIGH SCORE: "+hightScore+@"
-TOTAL SCORE: "+totalScore+@"
+HIGHEST MENTAL RESONANCE SCORE: "+hightScore+@"
+TOTAL MENTAL RESONANCE SCORE: "+totalScore+@"
 ==========================================
 RABIT units can be manipulated with user input.   
 [4],[5],[6],[8] --- contol movement.
