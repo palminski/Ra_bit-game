@@ -7,5 +7,5 @@ if instance_exists(o_rabit)
 	o_rabit.hascontrol = false;	
 }
 
-countdown = 100;
+countdown = 80;
 

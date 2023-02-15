@@ -8,6 +8,13 @@ if instance_exists(o_dev_testing_obj)
 }
 
 
+//Read ini file
+ini_open("save_file.ini");
+resets = string(ini_read_real("Story","Resets",776000)) ;
+hightScore = string(ini_read_real("Scores","HighScore",0)) ;
+totalScore = string(ini_read_real("Scores","TotalScore",0)) ;
+ini_close();
+
 menuOptions = []
 responseSelected = 0;
 
@@ -16,7 +23,7 @@ letters = 0;
 text = @"== [CRITICAL FAILURE DETECTED! ]==
 ACTIVATING FORCED LOOP RESET
 Resetting Loop...
-    --FORCED COMPLETION
+    --RESET NUMBER " + resets +@" SUCCESS
 Transcoding Neural Pathways...
     --COMPLETED WITH SOME ERRORS
 Rendering Transcoded Geometry...
@@ -35,6 +42,9 @@ Select [ACTIVATE] To Continue
 text_current = "";
 
 infoText = @"==[ Info ]==
+RESET NUMBER: " +resets+@"
+HIGH SCORE: "+hightScore+@"
+TOTAL SCORE: "+totalScore+@"
 ==========================================
 RABIT units can be manipulated with user input.   
 [4],[5],[6],[8] --- contol movement.
