@@ -65,4 +65,9 @@ if instance_exists(o_camera)
 	}
 }
 
-
+//Die in wall
+if place_meeting(x,y,o_wall) && on_screen
+{
+instance_destroy();
+repeat (200) instance_create_depth(x,y,1,o_blood);
+}
