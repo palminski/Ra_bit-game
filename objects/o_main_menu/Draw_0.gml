@@ -15,34 +15,34 @@ for (var i = 0; i < array_length(menuOptions); i ++)
 //Draw text
 if responseSelected == 0 {
 	DrawSetText(c_green,f_digital,fa_left,fa_top);
-draw_text_ext(25,9, _print,30,500);
+draw_text_ext(5,4, _print,30,500);
 draw_set_color(c_lime);
-draw_text_ext(25,10,_print,30,500);
+draw_text_ext(5,5,_print,30,500);
 }
 else if (menuOptions[responseSelected] == "INFO") {
 		DrawSetText(c_green,f_digital,fa_left,fa_top);
-draw_text_ext(25,9, infoText,30,700);
+draw_text_ext(5,4, infoText,30,700);
 draw_set_color(c_lime);
-draw_text_ext(25,10,infoText,30,700);
+draw_text_ext(5,5,infoText,30,700);
 }
 else if (menuOptions[responseSelected] == "ABORT") {
 		DrawSetText(c_green,f_digital,fa_left,fa_top);
-draw_text_ext(25,9, abortText,30,700);
+draw_text_ext(5,4, abortText,30,700);
 draw_set_color(c_lime);
-draw_text_ext(25,10,abortText,30,700);
+draw_text_ext(5,5,abortText,30,700);
 }
 else if (menuOptions[responseSelected] == "DEV START") {
 		DrawSetText(c_green,f_digital,fa_left,fa_top);
-draw_text_ext(25,9, devText,30,700);
+draw_text_ext(5,4, devText,30,700);
 draw_set_color(c_lime);
-draw_text_ext(25,10,devText,30,700);
+draw_text_ext(5,5,devText,30,700);
 }
 
 
 DrawSetText(c_green,f_digital,fa_center,fa_top);
-draw_text_ext(705,350, _print_menu,30,500);
+draw_text_ext(705,300, _print_menu,30,500);
 draw_set_color(c_lime);
-draw_text_ext(705,351,_print_menu,30,500);
+draw_text_ext(705,301,_print_menu,30,500);
 
 
 
