@@ -187,7 +187,16 @@ if global.life <= 0
 			o_transition.playerDirection = PLAYER_DIRECTION.LEFT;
 		}
 	}
-room_goto(Death_Room);
+	ini_open("save_file.ini")
+	show_debug_message(ini_read_real("Scores","HighScore",0));
+	
+	var _totalScore = ini_read_real("Scores","TotalScore",0)
+	ini_write_real("Scores","TotalScore",global.score + _totalScore);
+	if (global.score > ini_read_real("Scores","HighScore",0))
+		{
+			ini_write_real("Scores","HighScore",global.score);
+		}
+	room_goto(Death_Room);
 }
 //Falling or Not
 falling = vspd_final > 0;

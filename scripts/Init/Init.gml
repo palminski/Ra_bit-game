@@ -126,6 +126,7 @@ global.part_green_aura_collected = _p_green_aura_collected;
 
 //
 #endregion
+
 #region Ini File
 if (!file_exists("save_file.ini")) {
 	ini_open("save_file.ini");
