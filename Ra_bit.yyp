@@ -83,6 +83,7 @@
     {"id":{"name":"o_coin","path":"objects/o_coin/o_coin.yy",},"order":16,},
     {"id":{"name":"o_wall_blue","path":"objects/o_wall_blue/o_wall_blue.yy",},"order":3,},
     {"id":{"name":"o_invisible_platform","path":"objects/o_invisible_platform/o_invisible_platform.yy",},"order":7,},
+    {"id":{"name":"Template_Labrynth","path":"rooms/Template_Labrynth/Template_Labrynth.yy",},"order":4,},
     {"id":{"name":"tileset_shadow","path":"tilesets/tileset_shadow/tileset_shadow.yy",},"order":9,},
     {"id":{"name":"s_heart_empty","path":"sprites/s_heart_empty/s_heart_empty.yy",},"order":3,},
     {"id":{"name":"Room_1_2_a","path":"rooms/Room_1_2_a/Room_1_2_a.yy",},"order":10,},
@@ -190,6 +191,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
     {"roomId":{"name":"Test_Room","path":"rooms/Test_Room/Test_Room.yy",},},
+    {"roomId":{"name":"Template_Labrynth","path":"rooms/Template_Labrynth/Template_Labrynth.yy",},},
     {"roomId":{"name":"Room_1_1_b_a","path":"rooms/Room_1_1_b_a/Room_1_1_b_a.yy",},},
     {"roomId":{"name":"Room_1_1_b_a_a_secret","path":"rooms/Room_1_1_b_a_a_secret/Room_1_1_b_a_a_secret.yy",},},
     {"roomId":{"name":"HomeBase","path":"rooms/HomeBase/HomeBase.yy",},},
