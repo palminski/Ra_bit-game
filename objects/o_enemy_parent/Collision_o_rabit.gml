@@ -6,7 +6,7 @@ if other.falling && (other.y < y) && (other.invincibilityframes == 0) && !(invin
 		enemy_hp -= 1;
 		other.vspd = other.vspd_jump;
 }
-else if (other.invincibilityframes == 0) && (damaged_frames <= 0)
+else if (other.invincibilityframes == 0) && (damaged_frames <= 0) && other.hascontrol
 {
 	
 	global.life --;

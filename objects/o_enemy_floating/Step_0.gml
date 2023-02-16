@@ -26,6 +26,20 @@ if (place_meeting(x,y+vspd_final,o_wall))
 vspd_final = 0;
 vspd = -vspd;
 }
+//Corner
+if (place_meeting(x+hspd_final,y+vspd_final,o_wall))
+{	
+
+	while (!place_meeting(x+sign(hspd_final),y+sign(vspd_final),o_wall)) 
+	{
+		y += sign(vspd_final);
+		x += sign(hspd_final);
+	}
+vspd_final = 0;
+vspd = -vspd;
+hspd_final = 0;
+dir = -dir;
+}
 
 
 if (!instance_exists(o_text_dialogue)) {
