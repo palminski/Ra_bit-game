@@ -14,13 +14,13 @@ background = 0;
 //TEXT INFORMATION
 text_speed = 0.65;
 letters = 0;
-text = "Hello World.\nTest String";
+text = ["Hello World.\nTest String"];
 responses = [["TEST1","TEST2"],[1,2]];
 pass_with_response = "none";
 color = c_blue;
-length = string_length(text);
+length = string_length(text[0]);
 currentItemInArray = 0;
-totalItemsInArray = 1;
+totalItemsInArray = array_length(text);
 text_current = "";
 w = 0;
 h = 0;
