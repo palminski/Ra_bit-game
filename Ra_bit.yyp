@@ -81,6 +81,7 @@
     {"id":{"name":"o_rabit","path":"objects/o_rabit/o_rabit.yy",},"order":12,},
     {"id":{"name":"o_blood_controller","path":"objects/o_blood_controller/o_blood_controller.yy",},"order":4,},
     {"id":{"name":"s_rabit_walking","path":"sprites/s_rabit_walking/s_rabit_walking.yy",},"order":3,},
+    {"id":{"name":"o_trapdoor_enemy_number","path":"objects/o_trapdoor_enemy_number/o_trapdoor_enemy_number.yy",},"order":18,},
     {"id":{"name":"tileset_digital","path":"tilesets/tileset_digital/tileset_digital.yy",},"order":10,},
     {"id":{"name":"o_coin","path":"objects/o_coin/o_coin.yy",},"order":9,},
     {"id":{"name":"o_wall_blue","path":"objects/o_wall_blue/o_wall_blue.yy",},"order":5,},
