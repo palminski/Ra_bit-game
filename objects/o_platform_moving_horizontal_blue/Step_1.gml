@@ -2,7 +2,7 @@ mask_index = s_platform_moving;
 
 if (instance_exists(o_rabit))
 {
-	if (round(o_rabit.y + (o_rabit.sprite_height/2)) > y) or (o_rabit.keydown) or (global.roomtype = -1)
+	if (round(o_rabit.y + (o_rabit.sprite_height/2)) > y) or (o_rabit.keydown) or (global.roomtype = ROOMTYPE.RED)
 	{
 		mask_index = -1
 	}
