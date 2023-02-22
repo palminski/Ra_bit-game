@@ -48,14 +48,14 @@ if (global.roomtype == ROOMTYPE.BLUE)
 {
 	//layer_background_blend(background, $512500);
 	layer_background_blend(background, $A83832);
-	layer_background_blend(bg_color, $A83832);
+	//layer_background_blend(bg_color, $A83832);
 }
 else
 {
 	// old $09074C
 	//#a83232
 	layer_background_blend(background, $3232A8);
-	layer_background_blend(bg_color, $3232A8);
+	//layer_background_blend(bg_color, $3232A8);
 }
 
 
