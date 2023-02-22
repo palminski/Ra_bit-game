@@ -1,6 +1,6 @@
 
 var background = layer_background_get_id(layer_get_id("Background"));
-var bg_color = layer_background_get_id(layer_get_id("Background_Color"));
+var bg_tiles = layer_get_id("Tiles_Background");
 layer_background_blend(background, c_white)
 keyspace = keyboard_check_pressed(vk_space);
 //managing to extra health variable
@@ -46,16 +46,17 @@ if recharge >0
 //Adjust Background Based on Current Color
 if (global.roomtype == ROOMTYPE.BLUE)
 {
-	//layer_background_blend(background, $512500);
-	layer_background_blend(background, $A83832);
-	//layer_background_blend(bg_color, $A83832);
+	
+	layer_background_blend(background, #3232A8);
+	
+	layer_shader(bg_tiles, shader_blue);
 }
 else
 {
 	// old $09074C
 	//#a83232
-	layer_background_blend(background, $3232A8);
-	//layer_background_blend(bg_color, $3232A8);
+	layer_background_blend(background, #A83832);
+	layer_shader(bg_tiles, shader_red);
 }
 
 
