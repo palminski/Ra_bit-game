@@ -85,6 +85,7 @@
     {"id":{"name":"s_rabit_corpse","path":"sprites/s_rabit_corpse/s_rabit_corpse.yy",},"order":8,},
     {"id":{"name":"o_enemy_hopping","path":"objects/o_enemy_hopping/o_enemy_hopping.yy",},"order":2,},
     {"id":{"name":"f_score","path":"fonts/f_score/f_score.yy",},"order":4,},
+    {"id":{"name":"Labrynth_1_5_1","path":"rooms/Labrynth_1_5_1/Labrynth_1_5_1.yy",},"order":25,},
     {"id":{"name":"s_spike_blue","path":"sprites/s_spike_blue/s_spike_blue.yy",},"order":1,},
     {"id":{"name":"o_text_dialogue","path":"objects/o_text_dialogue/o_text_dialogue.yy",},"order":1,},
     {"id":{"name":"Labrynth_1_1_5","path":"rooms/Labrynth_1_1_5/Labrynth_1_1_5.yy",},"order":13,},
@@ -270,6 +271,7 @@
     {"roomId":{"name":"Labrynth_1_5_3","path":"rooms/Labrynth_1_5_3/Labrynth_1_5_3.yy",},},
     {"roomId":{"name":"Labrynth_1_5_2","path":"rooms/Labrynth_1_5_2/Labrynth_1_5_2.yy",},},
     {"roomId":{"name":"Labrynth_1_4_1","path":"rooms/Labrynth_1_4_1/Labrynth_1_4_1.yy",},},
+    {"roomId":{"name":"Labrynth_1_5_1","path":"rooms/Labrynth_1_5_1/Labrynth_1_5_1.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
