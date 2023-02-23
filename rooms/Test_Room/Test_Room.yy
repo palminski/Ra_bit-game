@@ -70,7 +70,7 @@
 -15,-2147483648,3,120,121,95,-5,-2147483648,-2,183,-23,-2147483648,-2,183,-14,-2147483648,1,121,-3,95,-5,-2147483648,-2,183,-14,
 -2147483648,-4,95,-3,120,-2,-2147483648,-2,183,-14,-2147483648,5,95,120,105,95,95,-4,-2147483648,-2,183,-14,-2147483648,11,95,
 104,121,95,95,120,95,-2147483648,-2147483648,183,183,-14,-2147483648,-7,95,-2,-2147483648,-2,183,-38,-2147483648,],},"visible":true,"depth":900,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"Sprite68","path":"sprites/Sprite68/Sprite68.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":1000,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"s_bg_cave","path":"sprites/s_bg_cave/s_bg_cave.yy",},"colour":4278190080,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":1000,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
   "creationCodeFile": "",
