@@ -24,7 +24,11 @@ if global.roomtype = ROOMTYPE.RED
 			image_speed = 0;
 		}
 	}
-
+if flicker {
+	flicker = false;
+	alarm[0] = random_range(1,30);
+	image_alpha = random_range(.6, 1);
+}
 
 
 
