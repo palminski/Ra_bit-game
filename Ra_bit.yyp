@@ -111,6 +111,7 @@
     {"id":{"name":"Labrynth_1_1_4","path":"rooms/Labrynth_1_1_4/Labrynth_1_1_4.yy",},"order":12,},
     {"id":{"name":"o_portal","path":"objects/o_portal/o_portal.yy",},"order":11,},
     {"id":{"name":"s_platform_moving","path":"sprites/s_platform_moving/s_platform_moving.yy",},"order":3,},
+    {"id":{"name":"Room_1_Boss","path":"rooms/Room_1_Boss/Room_1_Boss.yy",},"order":13,},
     {"id":{"name":"o_false_wall","path":"objects/o_false_wall/o_false_wall.yy",},"order":2,},
     {"id":{"name":"s_trigger_trapdoor","path":"objects/s_trigger_trapdoor/s_trigger_trapdoor.yy",},"order":3,},
     {"id":{"name":"Room_1_1_b","path":"rooms/Room_1_1_b/Room_1_1_b.yy",},"order":4,},
@@ -274,6 +275,7 @@
     {"roomId":{"name":"Labrynth_1_5_2","path":"rooms/Labrynth_1_5_2/Labrynth_1_5_2.yy",},},
     {"roomId":{"name":"Labrynth_1_4_1","path":"rooms/Labrynth_1_4_1/Labrynth_1_4_1.yy",},},
     {"roomId":{"name":"Labrynth_1_5_1","path":"rooms/Labrynth_1_5_1/Labrynth_1_5_1.yy",},},
+    {"roomId":{"name":"Room_1_Boss","path":"rooms/Room_1_Boss/Room_1_Boss.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
