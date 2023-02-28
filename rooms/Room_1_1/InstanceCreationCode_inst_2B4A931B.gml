@@ -1,1 +1,1 @@
-text = ["WELCOME TO SECTOR 1","As a result of the increase in hostile activity, and the unexpected rapid ingress of the CAVE certain areas in this sector have entered lockdown. ","To open them please have a downladed copy of a security key on your person."];
+text = ["\nERROR","CAVE CONTAINMENT SYSTEM --- CRITICAL FAILURE\nEMERGENCY LOCKDOWN --- ACTIVE\nSECTOR 2 STATUS: [CAN NOT CONNECT]"];
