@@ -1,39 +1,22 @@
-mask_index = s_platform_moving;
+/// @description Insert description here
+// You can write your code in this editor
 
-if (instance_exists(o_rabit))
-{
-	if (round(o_rabit.y + (o_rabit.sprite_height/2)) > y) or (o_rabit.keydown) or (global.roomtype = ROOMTYPE.RED)
+
+
+
+
+
+
+// Inherit the parent event
+event_inherited();
+
+if (global.roomtype = ROOMTYPE.RED)
 	{
 		mask_index = -1
+		image_alpha = 0.3;
 	}
 	else
 	{
-	mask_index = s_platform;	
-		if place_meeting(x,y-1,o_rabit)
-			{
-			o_rabit.hspd_carry = hspd;	
-			}
 	
+	image_alpha = 1;
 	}
-}
-
-
-
-//Moving
-
-
-
-if (position_meeting(x+hspd,y,o_movingplatform_limits))
-//or (position_meeting(x+hspd,y,o_wall))
-or (position_meeting(x+(36*scale)+hspd,y,o_movingplatform_limits))
-//or (position_meeting(x+(36*scale)+hspd,y,o_wall))
-{
-	
-	
-	hspd = -hspd;
-
-}
-else
-{
-	x += hspd;
-}
