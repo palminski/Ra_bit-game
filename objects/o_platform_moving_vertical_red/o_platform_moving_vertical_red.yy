@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_platform_moving_horizontal_red",
+  "name": "o_platform_moving_vertical_red",
   "spriteId": {
     "name": "s_platform_moving_red_active",
     "path": "sprites/s_platform_moving_red_active/s_platform_moving_red_active.yy",
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_platform_moving_horizontal",
-    "path": "objects/o_platform_moving_horizontal/o_platform_moving_horizontal.yy",
+    "name": "o_platform_moving_vertical",
+    "path": "objects/o_platform_moving_vertical/o_platform_moving_vertical.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,14 +29,11 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"hspd","varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Toggleables",

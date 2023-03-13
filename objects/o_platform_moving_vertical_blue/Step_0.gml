@@ -6,6 +6,7 @@ if (instance_exists(o_rabit))
 	or (o_rabit.keydown) 
 	or (place_meeting((x),(y)+vspd-36,o_wall))
 	or (vspd > 0 ) && (place_meeting(x,y+vspd,o_wall))
+	or global.roomtype == ROOMTYPE.RED
 	//or place_meeting(x,y-abs(vspd),o_rabit) && place_meeting(o_rabit.x,o_rabit.y + vspd,o_wall)
 	{
 		mask_index = -1;
@@ -41,7 +42,7 @@ if (instance_exists(o_rabit))
 if (position_meeting(x,y+vspd,o_movingplatform_limits))
 or (position_meeting(x,y+vspd,o_wall))
 or (position_meeting(x,y+vspd+14,o_movingplatform_limits))
-
+//or (position_meeting(x+(36*scale)+vspd,y,o_wall))
 {
 	if place_meeting(x,y-abs(vspd),o_rabit) || place_meeting(x,y-2*abs(vspd),o_rabit)
 			{
@@ -63,3 +64,8 @@ o_rabit.y += vspd;
 
 }
 
+if flicker {
+	flicker = false;
+	alarm[0] = random_range(1,30);
+	flicker_alpha = random_range(.6, 1);
+}
