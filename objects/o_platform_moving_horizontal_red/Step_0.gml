@@ -3,6 +3,12 @@
 
 
 
+if flicker {
+	flicker = false;
+	alarm[0] = random_range(1,30);
+	flicker_alpha = random_range(.6, 1);
+}
+
 
 
 

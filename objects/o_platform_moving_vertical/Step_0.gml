@@ -39,9 +39,9 @@ if (instance_exists(o_rabit))
 
 //Moving
 if (position_meeting(x,y+vspd,o_movingplatform_limits))
-//or (position_meeting(x+vspd,y,o_wall))
+or (position_meeting(x,y+vspd,o_wall))
 or (position_meeting(x,y+vspd+14,o_movingplatform_limits))
-//or (position_meeting(x+(36*scale)+vspd,y,o_wall))
+
 {
 	if place_meeting(x,y-abs(vspd),o_rabit) || place_meeting(x,y-2*abs(vspd),o_rabit)
 			{

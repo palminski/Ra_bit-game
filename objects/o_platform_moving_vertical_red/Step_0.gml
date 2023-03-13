@@ -40,7 +40,7 @@ if (instance_exists(o_rabit))
 
 //Moving
 if (position_meeting(x,y+vspd,o_movingplatform_limits))
-//or (position_meeting(x+vspd,y,o_wall))
+or (position_meeting(x,y+vspd,o_wall))
 or (position_meeting(x,y+vspd+14,o_movingplatform_limits))
 //or (position_meeting(x+(36*scale)+vspd,y,o_wall))
 {
@@ -64,3 +64,8 @@ o_rabit.y += vspd;
 
 }
 
+if flicker {
+	flicker = false;
+	alarm[0] = random_range(1,30);
+	flicker_alpha = random_range(.6, 1);
+}
