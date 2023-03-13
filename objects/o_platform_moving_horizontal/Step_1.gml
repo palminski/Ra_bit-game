@@ -2,7 +2,7 @@ mask_index = s_platform_moving
 
 if (instance_exists(o_rabit))
 {
-	if (round(o_rabit.y + (o_rabit.sprite_height/2)) > y) or (o_rabit.keydown) or (place_meeting(x,y,o_platform_moving_vertical))
+	if (round(o_rabit.y + (o_rabit.sprite_height/2)) > y) or (o_rabit.keydown)
 	{
 		show_debug_message(place_meeting(x,y,o_platform_moving_vertical));
 		mask_index = -1;

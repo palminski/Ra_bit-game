@@ -6,6 +6,7 @@ if (instance_exists(o_rabit))
 	or (o_rabit.keydown) 
 	or (place_meeting((x),(y)+vspd-36,o_wall))
 	or (vspd > 0 ) && (place_meeting(x,y+vspd,o_wall))
+	or global.roomtype == ROOMTYPE.RED
 	//or place_meeting(x,y-abs(vspd),o_rabit) && place_meeting(o_rabit.x,o_rabit.y + vspd,o_wall)
 	{
 		mask_index = -1;
