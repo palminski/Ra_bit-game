@@ -7,3 +7,4 @@ if global.roomtype != ROOMTYPE.RED
 	
 	image_index = 3;
 }
+	flicker = true;

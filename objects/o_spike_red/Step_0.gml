@@ -28,3 +28,8 @@ else
 {
 	mask_index = s_empty;
 }
+if flicker {
+	flicker = false;
+	alarm[0] = random_range(1,30);
+	image_alpha = random_range(.6, 1);
+}

@@ -6,7 +6,7 @@ if (instance_exists(o_rabit))
 	or (o_rabit.keydown) 
 	or (place_meeting((x),(y)+vspd-36,o_wall))
 	or (vspd > 0 ) && (place_meeting(x,y+vspd,o_wall))
-
+	//or place_meeting(x,y-abs(vspd),o_rabit) && place_meeting(o_rabit.x,o_rabit.y + vspd,o_wall)
 	{
 		mask_index = -1;
 		
@@ -19,7 +19,16 @@ if (instance_exists(o_rabit))
 			//o_rabit.vspd_carry = vspd;	
 			riding = true;
 			
-			o_rabit.y += vspd;
+			with o_rabit{
+				if !place_meeting(x,y+other.vspd,o_wall){
+					y += other.vspd;
+				}
+				
+			}
+			//if !place_meeting(o_rabit.x,o_rabit.y + vspd,o_wall) {
+			//	o_rabit.y += vspd;
+			//}
+			
 			
 			}
 	}
