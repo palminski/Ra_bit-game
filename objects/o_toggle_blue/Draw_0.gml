@@ -4,7 +4,5 @@
 
 
 
-if global.roomtype == ROOMTYPE.RED {
-	draw_self();	
-}
+draw_self();
 
