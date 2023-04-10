@@ -107,6 +107,7 @@
     {"id":{"name":"s_rabit_walking","path":"sprites/s_rabit_walking/s_rabit_walking.yy",},"order":3,},
     {"id":{"name":"o_trapdoor_enemy_number","path":"objects/o_trapdoor_enemy_number/o_trapdoor_enemy_number.yy",},"order":18,},
     {"id":{"name":"tileset_digital","path":"tilesets/tileset_digital/tileset_digital.yy",},"order":10,},
+    {"id":{"name":"Room_0_1_a","path":"rooms/Room_0_1_a/Room_0_1_a.yy",},"order":1,},
     {"id":{"name":"o_coin","path":"objects/o_coin/o_coin.yy",},"order":9,},
     {"id":{"name":"o_wall_blue","path":"objects/o_wall_blue/o_wall_blue.yy",},"order":5,},
     {"id":{"name":"o_invisible_platform","path":"objects/o_invisible_platform/o_invisible_platform.yy",},"order":3,},
@@ -290,6 +291,7 @@
     {"roomId":{"name":"Labrynth_1_5_1","path":"rooms/Labrynth_1_5_1/Labrynth_1_5_1.yy",},},
     {"roomId":{"name":"Room_1_Boss","path":"rooms/Room_1_Boss/Room_1_Boss.yy",},},
     {"roomId":{"name":"Room_0_1","path":"rooms/Room_0_1/Room_0_1.yy",},},
+    {"roomId":{"name":"Room_0_1_a","path":"rooms/Room_0_1_a/Room_0_1_a.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
