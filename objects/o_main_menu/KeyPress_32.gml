@@ -23,7 +23,7 @@ if letters >= length {
 	global.security_clearance = ds_map_create();
 	global.security_clearance[? "default"] = true;
 		
-	Slide_transition(TRANSITION_MODE.GOTO,HomeBaseDigital);
+	Slide_transition(TRANSITION_MODE.GOTO,HomeBase);
 			if instance_exists(o_transition) 
 				{
 					o_transition.playerSpawnX = 103;
