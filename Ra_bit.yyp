@@ -225,6 +225,7 @@
     {"id":{"name":"o_lighting_render","path":"objects/o_lighting_render/o_lighting_render.yy",},"order":1,},
     {"id":{"name":"Room_1_1","path":"rooms/Room_1_1/Room_1_1.yy",},"order":1,},
     {"id":{"name":"tileset_veins","path":"tilesets/tileset_veins/tileset_veins.yy",},"order":6,},
+    {"id":{"name":"Room_0_2","path":"rooms/Room_0_2/Room_0_2.yy",},"order":5,},
     {"id":{"name":"s_terminal_screen","path":"sprites/s_terminal_screen/s_terminal_screen.yy",},"order":6,},
     {"id":{"name":"Room_1_1_a","path":"rooms/Room_1_1_a/Room_1_1_a.yy",},"order":0,},
     {"id":{"name":"s_platform_moving_blue_inactive","path":"sprites/s_platform_moving_blue_inactive/s_platform_moving_blue_inactive.yy",},"order":10,},
@@ -298,6 +299,7 @@
     {"roomId":{"name":"Template_Small","path":"rooms/Template_Small/Template_Small.yy",},},
     {"roomId":{"name":"Room_0_1_b","path":"rooms/Room_0_1_b/Room_0_1_b.yy",},},
     {"roomId":{"name":"Room_0_0_a","path":"rooms/Room_0_0_a/Room_0_0_a.yy",},},
+    {"roomId":{"name":"Room_0_2","path":"rooms/Room_0_2/Room_0_2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
