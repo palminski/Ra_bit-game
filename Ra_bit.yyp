@@ -85,6 +85,7 @@
     {"id":{"name":"o_spike_red","path":"objects/o_spike_red/o_spike_red.yy",},"order":2,},
     {"id":{"name":"Labrynth_1_5_3","path":"rooms/Labrynth_1_5_3/Labrynth_1_5_3.yy",},"order":21,},
     {"id":{"name":"Sprite67","path":"sprites/Sprite67/Sprite67.yy",},"order":18,},
+    {"id":{"name":"Room_0_0_a","path":"rooms/Room_0_0_a/Room_0_0_a.yy",},"order":4,},
     {"id":{"name":"o_light_cutout_player","path":"objects/o_light_cutout_player/o_light_cutout_player.yy",},"order":1,},
     {"id":{"name":"s_platform_moving_blue_active","path":"sprites/s_platform_moving_blue_active/s_platform_moving_blue_active.yy",},"order":9,},
     {"id":{"name":"s_rabit_corpse","path":"sprites/s_rabit_corpse/s_rabit_corpse.yy",},"order":8,},
@@ -296,6 +297,7 @@
     {"roomId":{"name":"Room_0_1_a","path":"rooms/Room_0_1_a/Room_0_1_a.yy",},},
     {"roomId":{"name":"Template_Small","path":"rooms/Template_Small/Template_Small.yy",},},
     {"roomId":{"name":"Room_0_1_b","path":"rooms/Room_0_1_b/Room_0_1_b.yy",},},
+    {"roomId":{"name":"Room_0_0_a","path":"rooms/Room_0_0_a/Room_0_0_a.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
