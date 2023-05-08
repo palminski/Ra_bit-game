@@ -2,6 +2,24 @@
 // You can write your code in this editor
 window_set_fullscreen(true);
 
+
+global.roomtype = ROOMTYPE.BLUE;
+global.score = 0;
+global.life = 5;
+global.maxLife = 5;
+global.toExtraHealth = 0;
+
+global.level = 0;
+global.powerup = "";
+
+global.swapPowerup = false;
+global.infiltrator = false;
+	
+global.removed_entities = ds_map_create();
+global.security_clearance = ds_map_create();
+global.security_clearance[? "default"] = true;
+
+
 if instance_exists(o_dev_testing_obj) 
 {
 	instance_destroy(o_dev_testing_obj);	
@@ -65,8 +83,6 @@ EXIT TERMINAL DISPLAY AND RETURN TO DESKTOP?
 Select [ABORT] To EXIT
 ";
 
-devText = @"==[ DEV ]==
-WELCOME ADMIN [WILL]
-";
+
 length = string_length(text);
 

@@ -31,12 +31,7 @@ draw_text_ext(5,4, abortText,30,700);
 draw_set_color(c_lime);
 draw_text_ext(5,5,abortText,30,700);
 }
-else if (menuOptions[responseSelected] == "DEV START") {
-		DrawSetText(c_green,f_digital,fa_left,fa_top);
-draw_text_ext(5,4, devText,30,700);
-draw_set_color(c_lime);
-draw_text_ext(5,5,devText,30,700);
-}
+
 
 
 DrawSetText(c_green,f_digital,fa_center,fa_top);
