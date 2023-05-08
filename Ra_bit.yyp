@@ -66,6 +66,7 @@
     {"id":{"name":"s_enemy_hopper","path":"sprites/s_enemy_hopper/s_enemy_hopper.yy",},"order":0,},
     {"id":{"name":"Labrynth_1_5_2","path":"rooms/Labrynth_1_5_2/Labrynth_1_5_2.yy",},"order":22,},
     {"id":{"name":"o_platform","path":"objects/o_platform/o_platform.yy",},"order":4,},
+    {"id":{"name":"o_console","path":"objects/o_console/o_console.yy",},"order":12,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":7,},
     {"id":{"name":"Labrynth_1_3_2","path":"rooms/Labrynth_1_3_2/Labrynth_1_3_2.yy",},"order":6,},
     {"id":{"name":"HomeBase","path":"rooms/HomeBase/HomeBase.yy",},"order":0,},
@@ -146,6 +147,7 @@
     {"id":{"name":"o_platform_moving_horizontal","path":"objects/o_platform_moving_horizontal/o_platform_moving_horizontal.yy",},"order":5,},
     {"id":{"name":"o_enemy_parent","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"order":5,},
     {"id":{"name":"o_trapdoor_red","path":"objects/o_trapdoor_red/o_trapdoor_red.yy",},"order":10,},
+    {"id":{"name":"Console","path":"rooms/Console/Console.yy",},"order":9,},
     {"id":{"name":"Script_Dialogue_Response","path":"scripts/Script_Dialogue_Response/Script_Dialogue_Response.yy",},"order":7,},
     {"id":{"name":"s_decoration_tileset","path":"sprites/s_decoration_tileset/s_decoration_tileset.yy",},"order":5,},
     {"id":{"name":"s_bg_lab","path":"sprites/s_bg_lab/s_bg_lab.yy",},"order":4,},
@@ -300,6 +302,7 @@
     {"roomId":{"name":"Room_0_1_b","path":"rooms/Room_0_1_b/Room_0_1_b.yy",},},
     {"roomId":{"name":"Room_0_0_a","path":"rooms/Room_0_0_a/Room_0_0_a.yy",},},
     {"roomId":{"name":"Room_0_2","path":"rooms/Room_0_2/Room_0_2.yy",},},
+    {"roomId":{"name":"Console","path":"rooms/Console/Console.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},

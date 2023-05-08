@@ -30,6 +30,9 @@ if letters >= length {
 					o_transition.playerSpawnY = 227;
 				}
 	}
+	if menuOptions[responseSelected] == "CONSOLE" {
+		Slide_transition(TRANSITION_MODE.GOTO,Console);
+	}
 
 	if menuOptions[responseSelected] == "ABORT" {
 		game_end();
