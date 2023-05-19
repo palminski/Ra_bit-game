@@ -56,6 +56,7 @@
     {"id":{"name":"Room_1_1_a_a_a","path":"rooms/Room_1_1_a_a_a/Room_1_1_a_a_a.yy",},"order":6,},
     {"id":{"name":"s_rabit_jumping","path":"sprites/s_rabit_jumping/s_rabit_jumping.yy",},"order":2,},
     {"id":{"name":"o_terminal","path":"objects/o_terminal/o_terminal.yy",},"order":0,},
+    {"id":{"name":"Level_1_Enterance","path":"rooms/Level_1_Enterance/Level_1_Enterance.yy",},"order":14,},
     {"id":{"name":"Labrynth_1_1_1","path":"rooms/Labrynth_1_1_1/Labrynth_1_1_1.yy",},"order":1,},
     {"id":{"name":"s_red_toggle","path":"sprites/s_red_toggle/s_red_toggle.yy",},"order":7,},
     {"id":{"name":"Labrynth_1_5_4","path":"rooms/Labrynth_1_5_4/Labrynth_1_5_4.yy",},"order":20,},
@@ -304,6 +305,7 @@
     {"roomId":{"name":"Room_0_0_a","path":"rooms/Room_0_0_a/Room_0_0_a.yy",},},
     {"roomId":{"name":"Room_0_2","path":"rooms/Room_0_2/Room_0_2.yy",},},
     {"roomId":{"name":"Console","path":"rooms/Console/Console.yy",},},
+    {"roomId":{"name":"Level_1_Enterance","path":"rooms/Level_1_Enterance/Level_1_Enterance.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
