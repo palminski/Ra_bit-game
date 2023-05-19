@@ -167,6 +167,7 @@
     {"id":{"name":"o_rabit_main_menu","path":"objects/o_rabit_main_menu/o_rabit_main_menu.yy",},"order":16,},
     {"id":{"name":"o_light_cutout","path":"objects/o_light_cutout/o_light_cutout.yy",},"order":0,},
     {"id":{"name":"tileset_cave_background","path":"tilesets/tileset_cave_background/tileset_cave_background.yy",},"order":5,},
+    {"id":{"name":"o_create_text","path":"objects/o_create_text/o_create_text.yy",},"order":21,},
     {"id":{"name":"Labrynth_1_3_1","path":"rooms/Labrynth_1_3_1/Labrynth_1_3_1.yy",},"order":4,},
     {"id":{"name":"Template_Large","path":"rooms/Template_Large/Template_Large.yy",},"order":0,},
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},"order":5,},
