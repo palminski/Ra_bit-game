@@ -13,6 +13,7 @@ w = string_width(text_current);
 ////detect if outside of room
 var halfWAndBuffer = w *0.5 + 10;
 x = clamp(x,(0+halfWAndBuffer),(room_width-halfWAndBuffer));
+y = clamp(y,(0+h*2),(room_height));
 
 //Destroy When Done
 if (letters >= length) && (!point_in_circle(o_rabit.x,o_rabit.y,startX,startY+50,50))

@@ -13,4 +13,3 @@ boarder = 10;
 startX = x
 startY=y
 
-
