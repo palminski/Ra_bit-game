@@ -13,6 +13,7 @@ if (locked == true) {
 		with (instance_create_layer(x,y-50,"Entities",o_text))
 		{
 			text = "access requires " + other.required_clearance;	
+			activationPoint = [other.x,other.y,50]
 			length = string_length(text);
 		}
 		with (o_camera)
