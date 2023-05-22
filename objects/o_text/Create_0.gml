@@ -9,3 +9,8 @@ text_current = "";
 w = 0;
 h = 0;
 boarder = 10;
+
+startX = x
+startY=y
+
+
