@@ -6,12 +6,12 @@ if (letters < length)
 }
 text_current = string_copy(text,1,floor(letters));
 
-draw_set_font(f_prism_text);
+draw_set_font(f_digital);
 if (h == 0) h = string_height(text);
 w = string_width(text_current);
 
 ////detect if outside of room
-var halfWAndBuffer = string_width(text) *0.5 + 10;
+var halfWAndBuffer = w *0.5 + 10;
 x = clamp(x,(0+halfWAndBuffer),(room_width-halfWAndBuffer));
 
 //Destroy When Done
