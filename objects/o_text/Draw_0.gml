@@ -14,6 +14,9 @@ var halfw = w *0.5;
 
 
 //Draw a Box
+draw_set_color(c_lime);
+draw_set_alpha (1);
+draw_roundrect_ext(x-halfw-boarder-1,y-h-(boarder*2)-1,x+halfw+boarder+1,y+1,15,15,false);
 draw_set_color(c_black);
 draw_set_alpha (1);
 draw_roundrect_ext(x-halfw-boarder,y-h-(boarder*2),x+halfw+boarder,y,15,15,false);
