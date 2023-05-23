@@ -19,6 +19,7 @@
     {"id":{"name":"shader_blue","path":"shaders/shader_blue/shader_blue.yy",},"order":4,},
     {"id":{"name":"o_text_pressSpace","path":"objects/o_text_pressSpace/o_text_pressSpace.yy",},"order":2,},
     {"id":{"name":"o_door","path":"objects/o_door/o_door.yy",},"order":1,},
+    {"id":{"name":"Room_2_1","path":"rooms/Room_2_1/Room_2_1.yy",},"order":0,},
     {"id":{"name":"s_door_locked","path":"sprites/s_door_locked/s_door_locked.yy",},"order":13,},
     {"id":{"name":"s_portal","path":"sprites/s_portal/s_portal.yy",},"order":1,},
     {"id":{"name":"o_platform_moving_vertical","path":"objects/o_platform_moving_vertical/o_platform_moving_vertical.yy",},"order":6,},
@@ -306,6 +307,7 @@
     {"roomId":{"name":"Room_0_2","path":"rooms/Room_0_2/Room_0_2.yy",},},
     {"roomId":{"name":"Console","path":"rooms/Console/Console.yy",},},
     {"roomId":{"name":"Level_1_Entrance","path":"rooms/Level_1_Entrance/Level_1_Entrance.yy",},},
+    {"roomId":{"name":"Room_2_1","path":"rooms/Room_2_1/Room_2_1.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
@@ -348,6 +350,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"walls","folderPath":"folders/Sprites/walls.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":7,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"level 2","folderPath":"folders/Rooms/level 2.yy","order":10,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
