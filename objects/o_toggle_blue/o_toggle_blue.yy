@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_toggle_blue",
   "spriteId": {
-    "name": "s_prism_blue",
-    "path": "sprites/s_prism_blue/s_prism_blue.yy",
+    "name": "s_toggle_blue",
+    "path": "sprites/s_toggle_blue/s_toggle_blue.yy",
   },
   "solid": false,
   "visible": true,

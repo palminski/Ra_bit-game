@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_toggle_red",
   "spriteId": {
-    "name": "s_prism_red",
-    "path": "sprites/s_prism_red/s_prism_red.yy",
+    "name": "s_toggle_red",
+    "path": "sprites/s_toggle_red/s_toggle_red.yy",
   },
   "solid": false,
   "visible": true,
