@@ -32,7 +32,9 @@
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Entities","instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21250348_6_10_9_1","properties":[],"isDnd":false,"objectId":{"name":"o_rabit","path":"objects/o_rabit/o_rabit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":877.0,"y":299.0,},
           ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-        {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactables","instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+        {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactables","instances":[
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72CACE56","properties":[],"isDnd":false,"objectId":{"name":"o_princess","path":"objects/o_princess/o_princess.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":352.0,},
+          ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
       ],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Draw_Behind_Player","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_317A5913_3_10_9_1","properties":[],"isDnd":false,"objectId":{"name":"o_blood_controller","path":"objects/o_blood_controller/o_blood_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":0.0,},
@@ -172,6 +174,7 @@
     {"name":"inst_1511A9FC","path":"rooms/Labrynth_1_2_5/Labrynth_1_2_5.yy",},
     {"name":"inst_269E549E","path":"rooms/Labrynth_1_2_5/Labrynth_1_2_5.yy",},
     {"name":"inst_B9BA42E","path":"rooms/Labrynth_1_2_5/Labrynth_1_2_5.yy",},
+    {"name":"inst_72CACE56","path":"rooms/Labrynth_1_2_5/Labrynth_1_2_5.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

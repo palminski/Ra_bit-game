@@ -4,15 +4,15 @@
 
 
 
-
 if flicker {
 	flicker = false;
 	alarm[0] = random_range(1,30);
-	
+	image_index+=random_range(1,4)
+}
+
 	if global.roomtype == ROOMTYPE.RED {
-		image_alpha = random_range(.6, 01);
+		sprite_index = s_toggle_red
 	}
 	else {
-		image_alpha = random_range(.3, 0.5);
+	sprite_index = s_toggle_off
 	}
-}

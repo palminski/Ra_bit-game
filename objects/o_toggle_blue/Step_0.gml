@@ -3,15 +3,15 @@
 if flicker {
 	flicker = false;
 	alarm[0] = random_range(1,30);
-	if global.roomtype == ROOMTYPE.BLUE {
-		image_alpha = random_range(.6, 01);
-	}
-	else {
-		image_alpha = random_range(.3, 0.5);
-	}
+	image_index+=random_range(1,4)
 }
 
-
+	if global.roomtype == ROOMTYPE.BLUE {
+		sprite_index = s_toggle_blue
+	}
+	else {
+	sprite_index = s_toggle_off
+	}
 
 
 
