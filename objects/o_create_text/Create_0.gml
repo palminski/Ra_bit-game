@@ -1,7 +1,13 @@
 
-text = ["First bit of Dialogue","Second bit of Dialogue","Final bit of Dialogue"];
-responses = [["option 1","option 2"],[1,2]];
-data_to_pass = "none";
+Entity_ID = "Text_"+string(room)+"_"+string(x)+string(y);
+
+if (!is_undefined(global.removed_entities[? Entity_ID])) {
+	show_debug_message("REMOVED")
+	instance_destroy();	
+	exit;
+}
+
+
 
 	with (instance_create_layer(x,y-50,"Controllers",o_text_dialogue))
 	{
@@ -16,5 +22,4 @@ data_to_pass = "none";
 		follow = other.id;	
 		
 	}
-
 instance_destroy();
