@@ -2,7 +2,8 @@
 // You can write your code in this editor
 
 flicker = true;
-lighting_surface = -1;
+light = instance_create_layer(x,y,"Controllers",o_light_cutout);
+//light.color = 
 image_speed = 0
 
 
