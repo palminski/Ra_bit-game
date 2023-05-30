@@ -12,7 +12,9 @@ if flicker {
 
 	if global.roomtype == ROOMTYPE.RED {
 		sprite_index = s_toggle_red
+		part_particles_create(global.partical_system,x,y,global.part_red_aura,2);
 	}
 	else {
 	sprite_index = s_toggle_off
+		part_particles_create(global.partical_system,x,y,global.part_faded_red_aura,1);
 	}

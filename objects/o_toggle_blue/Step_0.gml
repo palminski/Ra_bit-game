@@ -8,9 +8,11 @@ if flicker {
 
 	if global.roomtype == ROOMTYPE.BLUE {
 		sprite_index = s_toggle_blue
+		part_particles_create(global.partical_system,x,y,global.part_blue_aura,2);
 	}
 	else {
 	sprite_index = s_toggle_off
+	part_particles_create(global.partical_system,x,y,global.part_faded_blue_aura,1);
 	}
 
 
