@@ -4,5 +4,5 @@ if visable = false {
 	}
 }
 else {
-	image_alpha = 1;
+	image_alpha = max_alpha;
 }

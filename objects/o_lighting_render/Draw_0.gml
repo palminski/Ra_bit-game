@@ -4,7 +4,7 @@ var camera_w = camera_get_view_width(view_camera[0]);
 var camera_h = camera_get_view_height(view_camera[0]);
 var camera_x = camera_get_view_x(view_camera[0]);
 var camera_y = camera_get_view_y(view_camera[0]);
-if (surface_exists(lighting_surface) == false)
+if (!surface_exists(lighting_surface))
 {
 lighting_surface = surface_create(camera_w,camera_h)	;
 }
@@ -16,15 +16,15 @@ draw_clear_alpha(c_black, darkness);
 
 with(o_light_cutout)
 {
-	
+	if (image_alpha > 0) {
 		var wobble_x = image_xscale + random_range(-wobble,wobble);
 		var wobble_y = image_yscale + random_range(-wobble,wobble);
 		gpu_set_blendmode(bm_subtract);
 		draw_sprite_ext(sprite_index, image_index,x-camera_x ,y-camera_y,wobble_x,wobble_y,0,c_white, image_alpha);
-		gpu_set_blendmode(bm_add);
-		draw_sprite_ext(sprite_index, image_index,x-camera_x ,y-camera_y,wobble_x,wobble_y,0,color, intensity);
+		//gpu_set_blendmode(bm_add);
+		//draw_sprite_ext(sprite_index, image_index,x-camera_x ,y-camera_y,wobble_x,wobble_y,0,color, intensity);
 		gpu_set_blendmode(bm_normal);
-	
+	}
 }
 
 surface_reset_target();
