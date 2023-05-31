@@ -19,7 +19,6 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Controllers","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26DCE50_5_6","properties":[],"isDnd":false,"objectId":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6FD043E4_4_6","properties":[],"isDnd":false,"objectId":{"name":"o_lighting_render","path":"objects/o_lighting_render/o_lighting_render.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":0.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2E4EF15B_5_6","properties":[],"isDnd":false,"objectId":{"name":"o_light_cutout_player","path":"objects/o_light_cutout_player/o_light_cutout_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-128.0,"y":-64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F5817F3_5_6","properties":[],"isDnd":false,"objectId":{"name":"o_controller","path":"objects/o_controller/o_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2B81B6AB","properties":[],"isDnd":false,"objectId":{"name":"o_dev_testing_obj","path":"objects/o_dev_testing_obj/o_dev_testing_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":-64.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":36,"gridY":37,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -109,7 +108,6 @@
     {"name":"inst_26DCE50_5_6","path":"rooms/Test_Room/Test_Room.yy",},
     {"name":"inst_7F5817F3_5_6","path":"rooms/Test_Room/Test_Room.yy",},
     {"name":"inst_6FD043E4_4_6","path":"rooms/Test_Room/Test_Room.yy",},
-    {"name":"inst_2E4EF15B_5_6","path":"rooms/Test_Room/Test_Room.yy",},
     {"name":"inst_21250348_6_6","path":"rooms/Test_Room/Test_Room.yy",},
     {"name":"inst_317A5913_3_6","path":"rooms/Test_Room/Test_Room.yy",},
     {"name":"inst_7704C89E_6","path":"rooms/Test_Room/Test_Room.yy",},

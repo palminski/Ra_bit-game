@@ -206,6 +206,10 @@ falling = vspd_final > 0;
 //This use of aditional if statements can be simplified by adding with previous code
 //once more stuff is fleshed out I should do that
 
+//move lighting cutout
+light.x = x;
+light.y = y;
+
 //determine weather to face left or right
 if (hspd != 0) image_xscale = (sign(hspd));
 

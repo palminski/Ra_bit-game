@@ -19,7 +19,6 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Controllers","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26DCE50_5_2_3","properties":[],"isDnd":false,"objectId":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6FD043E4_4_2_3","properties":[],"isDnd":false,"objectId":{"name":"o_lighting_render","path":"objects/o_lighting_render/o_lighting_render.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":0.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2E4EF15B_5_2_3","properties":[],"isDnd":false,"objectId":{"name":"o_light_cutout_player","path":"objects/o_light_cutout_player/o_light_cutout_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-128.0,"y":-64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F5817F3_5_2_3","properties":[],"isDnd":false,"objectId":{"name":"o_controller","path":"objects/o_controller/o_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B414F73","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target","path":"objects/o_portal/o_portal.yy",},"objectId":{"name":"o_portal","path":"objects/o_portal/o_portal.yy",},"value":"Room_1_1_b_a_a",},
@@ -169,7 +168,6 @@
     {"name":"inst_26DCE50_5_2_3","path":"rooms/Room_1_1_b_a/Room_1_1_b_a.yy",},
     {"name":"inst_7F5817F3_5_2_3","path":"rooms/Room_1_1_b_a/Room_1_1_b_a.yy",},
     {"name":"inst_6FD043E4_4_2_3","path":"rooms/Room_1_1_b_a/Room_1_1_b_a.yy",},
-    {"name":"inst_2E4EF15B_5_2_3","path":"rooms/Room_1_1_b_a/Room_1_1_b_a.yy",},
     {"name":"inst_21250348_6_1_3","path":"rooms/Room_1_1_b_a/Room_1_1_b_a.yy",},
     {"name":"inst_317A5913_3_1_3","path":"rooms/Room_1_1_b_a/Room_1_1_b_a.yy",},
     {"name":"inst_7704C89E_1_3","path":"rooms/Room_1_1_b_a/Room_1_1_b_a.yy",},

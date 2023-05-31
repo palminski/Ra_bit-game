@@ -11,7 +11,8 @@ lighting_surface = surface_create(camera_w,camera_h)	;
 
 surface_set_target(lighting_surface);
 
-draw_clear_alpha(c_black, 0.55);
+//darkness scales from 0 to 1 and detemines the alpha of the black area in a room
+draw_clear_alpha(c_black, darkness);
 
 with(o_light_cutout)
 {

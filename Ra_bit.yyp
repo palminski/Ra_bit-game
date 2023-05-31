@@ -94,7 +94,6 @@
     {"id":{"name":"Labrynth_1_5_3","path":"rooms/Labrynth_1_5_3/Labrynth_1_5_3.yy",},"order":21,},
     {"id":{"name":"Sprite67","path":"sprites/Sprite67/Sprite67.yy",},"order":18,},
     {"id":{"name":"Room_0_0_a","path":"rooms/Room_0_0_a/Room_0_0_a.yy",},"order":4,},
-    {"id":{"name":"o_light_cutout_player","path":"objects/o_light_cutout_player/o_light_cutout_player.yy",},"order":1,},
     {"id":{"name":"s_platform_moving_blue_active","path":"sprites/s_platform_moving_blue_active/s_platform_moving_blue_active.yy",},"order":9,},
     {"id":{"name":"s_rabit_corpse","path":"sprites/s_rabit_corpse/s_rabit_corpse.yy",},"order":8,},
     {"id":{"name":"o_enemy_hopping","path":"objects/o_enemy_hopping/o_enemy_hopping.yy",},"order":2,},
