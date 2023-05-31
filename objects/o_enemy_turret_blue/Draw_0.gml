@@ -1,0 +1,22 @@
+/// @description Insert description here
+// You can write your code in this editor
+if (shot_cooldown >= shot_cooldown_max - 20) && global.roomtype == ROOMTYPE.BLUE
+{
+	blink = (shot_cooldown div 3) mod 2;
+	if blink
+	{
+		shader_set(shader_white_overlay);	
+	}
+}
+
+if global.roomtype == ROOMTYPE.BLUE {
+	sprite_index = s_enemy_turret_blue
+}
+else {
+	sprite_index = s_enemy_turret_inactive
+}
+
+
+
+draw_self();
+shader_reset();

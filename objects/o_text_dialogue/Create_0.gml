@@ -9,7 +9,7 @@ x1Target = o_camera.x - o_camera.view_w_half;
 x2Target = 2*o_camera.view_w_half;
 lerpProgress = 0; //Linear interpolation progress;
 background = 0;
-
+depth = -100;
 
 //TEXT INFORMATION
 text_speed = 0.65;
