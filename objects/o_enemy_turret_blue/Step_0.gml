@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (global.roomtype == ROOMTYPE.BLUE) {
 shot_cooldown ++;
-	part_particles_create(global.partical_system,x,y,global.part_purple_aura,1);
+	part_particles_create(global.partical_system,x,y,global.part_blue_aura,1);
 if shot_cooldown >= shot_cooldown_max && instance_exists(o_rabit)
 {
 	if (image_angle == 0) {
@@ -49,4 +50,4 @@ if shot_cooldown >= shot_cooldown_max && instance_exists(o_rabit)
 		}
 	}
 }
-//point_direction(x,y,o_rabit.x,o_rabit.y)
+}
