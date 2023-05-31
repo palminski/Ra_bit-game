@@ -16,15 +16,15 @@ draw_clear_alpha(c_black, darkness);
 
 with(o_light_cutout)
 {
-	if (visable) {
+	
 		var wobble_x = image_xscale + random_range(-wobble,wobble);
 		var wobble_y = image_yscale + random_range(-wobble,wobble);
 		gpu_set_blendmode(bm_subtract);
-		draw_sprite_ext(sprite_index, image_index,x-camera_x ,y-camera_y,wobble_x,wobble_y,0,c_white, 1);
+		draw_sprite_ext(sprite_index, image_index,x-camera_x ,y-camera_y,wobble_x,wobble_y,0,c_white, image_alpha);
 		gpu_set_blendmode(bm_add);
 		draw_sprite_ext(sprite_index, image_index,x-camera_x ,y-camera_y,wobble_x,wobble_y,0,color, intensity);
 		gpu_set_blendmode(bm_normal);
-	}
+	
 }
 
 surface_reset_target();

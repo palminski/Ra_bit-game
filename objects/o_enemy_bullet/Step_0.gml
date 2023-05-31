@@ -14,8 +14,9 @@
 fade_timer--;
 //if (fade_timer <= 0)
 //{
-	fade_timer = fade_time;
-
+fade_timer = fade_time;
+light.x = x;
+light.y = y;
 	
 //}
 part_particles_create(global.partical_system,x,y,global.part_enemy_bullet,1);

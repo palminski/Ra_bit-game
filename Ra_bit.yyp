@@ -166,6 +166,7 @@
     {"id":{"name":"s_enemy_turret_inactive","path":"sprites/s_enemy_turret_inactive/s_enemy_turret_inactive.yy",},"order":11,},
     {"id":{"name":"Script_Dialogue_Response","path":"scripts/Script_Dialogue_Response/Script_Dialogue_Response.yy",},"order":7,},
     {"id":{"name":"s_decoration_tileset","path":"sprites/s_decoration_tileset/s_decoration_tileset.yy",},"order":5,},
+    {"id":{"name":"o_light_fading","path":"objects/o_light_fading/o_light_fading.yy",},"order":6,},
     {"id":{"name":"s_bg_lab","path":"sprites/s_bg_lab/s_bg_lab.yy",},"order":4,},
     {"id":{"name":"s_trapdoor_lab","path":"sprites/s_trapdoor_lab/s_trapdoor_lab.yy",},"order":19,},
     {"id":{"name":"o_life_up","path":"objects/o_life_up/o_life_up.yy",},"order":10,},
