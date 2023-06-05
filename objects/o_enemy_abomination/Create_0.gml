@@ -1,8 +1,7 @@
 event_inherited();
 
 
-
-hspd = 1;
+hspd = 0.5;
 vspd = 1;
 grav = 0.4;
 vspd_jump = -9;
