@@ -35,7 +35,14 @@ if (place_meeting(x,y+vspd_final,o_wall))
 	}
 vspd_final = 0;
 
-//Determin if the object is on screen
+//Destroy self if in a wall while opn screen
+}
+if place_meeting(x,y,o_wall) && on_screen
+{
+instance_destroy();
+repeat (200) instance_create_depth(x,y,1,o_blood);
+}
+
 on_screen = true;
 if instance_exists(o_camera)
 {
@@ -43,14 +50,6 @@ if instance_exists(o_camera)
 	{
 		on_screen = false;
 	}
-}
-
-//Destroy self if in a wall while opn screen
-}
-if place_meeting(x,y,o_wall) && on_screen
-{
-instance_destroy();
-repeat (200) instance_create_depth(x,y,1,o_blood);
 }
 
 //GRAVITY
@@ -103,4 +102,5 @@ if !instance_exists(o_text_dialogue) || !onground{
 
 image_xscale = sign(dir)	
 
+//Determin if the object is on screen
 
