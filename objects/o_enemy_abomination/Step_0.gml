@@ -81,27 +81,23 @@ vspd += grav;
 
 vspd = clamp(vspd,-vspd_max,vspd_max);
 
-if !instance_exists(o_text_dialogue) || !onground{
+if (!instance_exists(o_text_dialogue) || !onground) && state = STATE.MOVING{
 	x += hspd_final;
 	y += vspd_final;
-}
-	
 
-
-
-//Being Defeated
-//if (place_meeting(x,y-(1),o_rabit))
-//{	
-
-//	instance_destroy(self);
-//}
 //ANIMATION
-if (hspd_final == 0) {
-	image_index = 0;
-}
-else
-{
-	image_index += 0.3*sign(dir)
+	if (hspd_final == 0) {
+		image_index = 0;
+	}
+	else
+	{
+		image_index += 0.3*sign(dir)
+	}
+	if (keyboard_check_pressed(vk_numpad8)) {
+		state = STATE.ATTACKING
+		image_index=0;
+		sprite_index = s_enemy_abomination_attack;
+	}
 }
 //Determin if the object is on screen
 
