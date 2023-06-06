@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_solid_for_player",
-    "path": "objects/o_solid_for_player/o_solid_for_player.yy",
+    "name": "o_wall",
+    "path": "objects/o_wall/o_wall.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
