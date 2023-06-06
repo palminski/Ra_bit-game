@@ -20,6 +20,7 @@ if (place_meeting(x+hspd_final,y,o_wall) )
 	{
 		x += sign(hspd_final);
 	}
+hspd_final = 0;
 dir = -dir
 }
 if (place_meeting(x+hspd_final,y,o_portal))
@@ -28,10 +29,12 @@ if (place_meeting(x+hspd_final,y,o_portal))
 	{
 		x += sign(hspd_final);
 	}
+hspd_final = 0;
 dir = -dir
 }
 //at ledge
 if (!place_meeting(x+hspd_final+(sprite_width/2*dir),y+1,o_wall) && onground) {
+hspd_final = 0;
 dir = -dir	
 }
 
