@@ -69,8 +69,8 @@ if !instance_exists(o_text_dialogue)
 			repeat (100) instance_create_depth(x,y,1,o_enemy_bullet_particles);
 			with instance_create_layer(x,y,"Entities",o_enemy_bullet)
 			{
-				dir = -1;
-				direction = other.image_angle;
+				dir = 1;
+				direction = (other.dir == 1) ?  0 : 180;
 			}
 	}
 }
