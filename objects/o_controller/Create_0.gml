@@ -8,6 +8,7 @@ view_h_half = camera_get_view_height(cam) * 0.5;
 
 
 global.partical_system = part_system_create_layer("Interactables",false);
+global.partical_system_above = part_system_create_layer("Entities",false);
 //part_system_depth(global.partical_system, -100);
 
 

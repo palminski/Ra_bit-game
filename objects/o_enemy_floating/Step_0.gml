@@ -2,7 +2,11 @@
 // You can write your code in this editor
 var hspd_final = dir * hspd;
 var vspd_final = vspd;
-keyjump = keyboard_check_pressed(vk_numpad8);
+
+
+if !(image_index >= 5 && image_index <= 10) {
+	part_particles_create(global.partical_system_above,x,y,global.part_purple_aura,1);
+}
 
 //COLISIONS
 //HORIZONTAL

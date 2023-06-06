@@ -3,7 +3,7 @@
 if global.roomtype == ROOMTYPE.RED{
 sprite_index = s_enemy_cannon_red
 shot_cooldown ++;
-part_particles_create(global.partical_system,x,y,global.part_red_aura,1);
+part_particles_create(global.partical_system,x,y,global.part_purple_aura,1);
 if shot_cooldown >= shot_cooldown_max
 {
 			shot_cooldown = 0;

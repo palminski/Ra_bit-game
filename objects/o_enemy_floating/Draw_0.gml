@@ -13,4 +13,6 @@ if shot_cooldown >= shot_cooldown_max - 20
 
 
 event_inherited();
+
+
 shader_reset();

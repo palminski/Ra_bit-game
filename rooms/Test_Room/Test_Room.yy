@@ -28,13 +28,7 @@
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Entities","instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21250348_6_6","properties":[],"isDnd":false,"objectId":{"name":"o_rabit","path":"objects/o_rabit/o_rabit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":61.0,"y":479.0,},
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_490F1553","properties":[],"isDnd":false,"objectId":{"name":"o_enemy_patrolling","path":"objects/o_enemy_patrolling/o_enemy_patrolling.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":320.0,},
-            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A31692D","properties":[],"isDnd":false,"objectId":{"name":"o_enemy_patrolling","path":"objects/o_enemy_patrolling/o_enemy_patrolling.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":448.0,},
-            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_388BEA63","properties":[
-                {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"invincibility_color","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"objectId":{"name":"o_enemy_parent","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"value":"blue",},
-              ],"isDnd":false,"objectId":{"name":"o_enemy_patrolling","path":"objects/o_enemy_patrolling/o_enemy_patrolling.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":448.0,},
-            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65FBCF24","properties":[
-                {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"invincibility_color","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"objectId":{"name":"o_enemy_parent","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"value":"red",},
-              ],"isDnd":false,"objectId":{"name":"o_enemy_patrolling","path":"objects/o_enemy_patrolling/o_enemy_patrolling.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":448.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2855CB99","properties":[],"isDnd":false,"objectId":{"name":"o_enemy_floating","path":"objects/o_enemy_floating/o_enemy_floating.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":320.0,},
           ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactables","instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
       ],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -93,9 +87,7 @@
     {"name":"inst_A76F1CF","path":"rooms/Test_Room/Test_Room.yy",},
     {"name":"inst_3285501","path":"rooms/Test_Room/Test_Room.yy",},
     {"name":"inst_490F1553","path":"rooms/Test_Room/Test_Room.yy",},
-    {"name":"inst_A31692D","path":"rooms/Test_Room/Test_Room.yy",},
-    {"name":"inst_388BEA63","path":"rooms/Test_Room/Test_Room.yy",},
-    {"name":"inst_65FBCF24","path":"rooms/Test_Room/Test_Room.yy",},
+    {"name":"inst_2855CB99","path":"rooms/Test_Room/Test_Room.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

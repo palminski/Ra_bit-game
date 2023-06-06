@@ -2,6 +2,10 @@ var _hspd_final = hspd * dir;
 var _vspd_final = vspd;
 var _onground = (place_meeting(x,y+1,o_wall));
 
+if (image_index <2) {
+	part_particles_create(global.partical_system_above,x,y,global.part_purple_aura,1);	
+}
+
 //Horizontal Collision
 if (place_meeting(x+_hspd_final,y,o_wall))
 {	
@@ -62,7 +66,7 @@ if !instance_exists(o_text_dialogue)
 	
 	//shooting
 	shot_cooldown ++;
-	part_particles_create(global.partical_system,x,y,global.part_purple_aura,1);
+
 	if shot_cooldown >= shot_cooldown_max
 	{
 			shot_cooldown = 0;
