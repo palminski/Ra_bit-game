@@ -237,6 +237,8 @@
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},"order":6,},
     {"id":{"name":"shader_white_overlay","path":"shaders/shader_white_overlay/shader_white_overlay.yy",},"order":2,},
     {"id":{"name":"s_platform_moving_red_active","path":"sprites/s_platform_moving_red_active/s_platform_moving_red_active.yy",},"order":7,},
+    {"id":{"name":"s_enemy_walker","path":"sprites/s_enemy_walker/s_enemy_walker.yy",},"order":18,},
+    {"id":{"name":"o_enemy_walker","path":"objects/o_enemy_walker/o_enemy_walker.yy",},"order":17,},
     {"id":{"name":"s_enemy_cannon_red","path":"sprites/s_enemy_cannon_red/s_enemy_cannon_red.yy",},"order":14,},
     {"id":{"name":"s_rabit_idle","path":"sprites/s_rabit_idle/s_rabit_idle.yy",},"order":7,},
     {"id":{"name":"s_enemy_hopper65","path":"sprites/s_enemy_hopper65/s_enemy_hopper65.yy",},"order":7,},

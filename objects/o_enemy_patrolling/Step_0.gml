@@ -33,10 +33,19 @@ if (place_meeting(x,y+_vspd_final,o_wall))
 _vspd_final = 0;
 vspd = 0;
 }
-//hop down
+//hop down or stay
 if  (_onground)  && (!place_meeting(x+dir*abs(_hspd_final),y+(1),o_wall))
 {	
-	vspd = vspd_jump*0.4;
+	if (hops)
+	{
+		vspd = vspd_jump*0.4;
+	}
+	else 
+	{
+		_hspd_final = 0;
+		dir = -dir;
+	}
+	
 }
 
 //gravity
@@ -50,6 +59,20 @@ vspd = clamp(vspd,-vspd_max,vspd_max);
 if !instance_exists(o_text_dialogue)
 {
 	x += _hspd_final;
+	
+	//shooting
+	shot_cooldown ++;
+	part_particles_create(global.partical_system,x,y,global.part_purple_aura,1);
+	if shot_cooldown >= shot_cooldown_max
+	{
+			shot_cooldown = 0;
+			repeat (100) instance_create_depth(x,y,1,o_enemy_bullet_particles);
+			with instance_create_layer(x,y,"Entities",o_enemy_bullet)
+			{
+				dir = -1;
+				direction = other.image_angle;
+			}
+	}
 }
 
 
