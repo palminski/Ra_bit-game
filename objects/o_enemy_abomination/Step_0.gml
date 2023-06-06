@@ -97,7 +97,16 @@ if (!instance_exists(o_text_dialogue) || !onground) && state = STATE.MOVING{
 		state = STATE.ATTACKING
 		image_index=0;
 		sprite_index = s_enemy_abomination_attack;
+		
 	}
 }
 //Determin if the object is on screen
-
+//ATTACKING
+if (state = STATE.ATTACKING) {
+	if (image_index >= 4 &&	image_index <= 11) {
+		invincible = true;
+	}
+	else {
+	invincible = false;	
+	}
+}

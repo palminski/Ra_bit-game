@@ -5,7 +5,7 @@ damaged_frames = 0;
 
 Entity_ID = "Enemy_"+string(room)+"_"+string(x)+string(y);
 
-
+invincible = false
 
 if (!is_undefined(global.removed_entities[? Entity_ID])) && respawning = false {
 	instance_destroy();	
