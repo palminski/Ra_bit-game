@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+source = instance_place(x,y,o_wall);
 dir = 1;
 hspd = 10;
 speed = 10;

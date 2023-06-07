@@ -35,6 +35,16 @@ if (place_meeting(x,y+vspd_final,o_wall))
 	}
 vspd_final = 0;
 
+//Determin if the object is on screen
+on_screen = true;
+if instance_exists(o_camera)
+{
+	if (x > o_camera.x + o_camera.view_w_half) || (x < o_camera.x - o_camera.view_w_half) || (y > o_camera.y + o_camera.view_h_half) || (y < o_camera.y - o_camera.view_h_half)
+	{
+		on_screen = false;
+	}
+}
+
 //Destroy self if in a wall while opn screen
 }
 if place_meeting(x,y,o_wall) && on_screen
@@ -93,12 +103,4 @@ if !instance_exists(o_text_dialogue) || !onground{
 
 image_xscale = sign(dir)	
 
-//Determin if the object is on screen
-on_screen = true;
-if instance_exists(o_camera)
-{
-	if (x > o_camera.x + o_camera.view_w_half) || (x < o_camera.x - o_camera.view_w_half) || (y > o_camera.y + o_camera.view_h_half) || (y < o_camera.y - o_camera.view_h_half)
-	{
-		on_screen = false;
-	}
-}
+
