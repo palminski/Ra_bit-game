@@ -7,5 +7,6 @@ if (global.roomtype = ROOMTYPE.RED) {
 	image_alpha = 1;
 }
 
+
 draw_self();
 

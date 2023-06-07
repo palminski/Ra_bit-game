@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_wall_colorful",
+  "name": "o_wall_pink_glow",
   "spriteId": {
-    "name": "s_wall_colorful_placeholder",
-    "path": "sprites/s_wall_colorful_placeholder/s_wall_colorful_placeholder.yy",
+    "name": "s_wall_pink_glow",
+    "path": "sprites/s_wall_pink_glow/s_wall_pink_glow.yy",
   },
   "solid": false,
   "visible": true,
