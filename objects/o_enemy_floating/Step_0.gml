@@ -9,7 +9,15 @@ if !(image_index >= 5 && image_index <= 10) {
 }
 
 //COLISIONS
-//HORIZONTAL
+if (place_meeting(x+hspd_final,y,o_enemy_parent)) {
+	hspd_final = 0;
+	dir = -dir;
+}
+if (place_meeting(x,y+vspd_final,o_enemy_parent)) {
+	vspd_final = 0;
+	vspd = -vspd;
+}
+
 if (place_meeting(x+hspd_final,y,o_wall))
 {	
 	while (!place_meeting(x+sign(hspd_final),y,o_wall)) 

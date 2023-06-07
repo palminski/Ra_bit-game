@@ -14,6 +14,10 @@ onground = place_meeting(x,y+1,o_wall);
 
 //COLISIONS
 //HORIZONTAL
+if (place_meeting(x+hspd_final,y,o_enemy_walker) ) {
+	hspd_final = 0;
+	dir = -dir
+}
 if (place_meeting(x+hspd_final,y,o_wall) )
 {	
 	while (!place_meeting(x+sign(hspd_final),y,o_wall)) 
