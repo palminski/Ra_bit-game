@@ -56,9 +56,12 @@
 7,16,24,-2147483648,-2147483648,34,1,24,-18,-2147483648,7,16,24,-2147483648,-2147483648,40,28,38,-18,-2147483648,2,16,24,-23,-2147483648,
 2,16,24,-23,-2147483648,2,16,24,-23,-2147483648,2,16,2,-23,20,1,1,],},"visible":true,"depth":900,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
         {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_Blocks","tilesetId":{"name":"tileset_blocks","path":"tilesets/tileset_blocks/tileset_blocks.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":25,"SerialiseHeight":15,"TileCompressedData":[
--19,0,1,-2147483648,-17,0,-12,-2147483648,-4,0,-21,-2147483648,-3,0,-22,-2147483648,-2,0,-23,-2147483648,-3,0,-22,-2147483648,3,
-0,-2147483648,0,-22,-2147483648,3,0,-2147483648,0,-22,-2147483648,3,0,-2147483648,0,-22,-2147483648,-4,0,-21,-2147483648,-3,0,-22,-2147483648,
-1,0,-16,-2147483648,-4,0,-4,-2147483648,1,0,-15,-2147483648,-10,0,-10,-2147483648,-15,0,-6,-2147483648,-19,0,],},"visible":true,"depth":1000,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+-19,0,1,-2147483648,-17,0,-12,-2147483648,-4,0,-21,-2147483648,-3,0,-22,-2147483648,-2,0,-23,-2147483648,-3,0,-6,-2147483648,2,
+87,168,-8,-2147483648,1,87,-5,-2147483648,3,0,-2147483648,0,-3,-2147483648,5,87,168,-2147483648,-2147483648,185,-6,-2147483648,3,184,169,
+168,-5,-2147483648,3,0,-2147483648,0,-3,-2147483648,2,168,185,-3,87,-6,-2147483648,4,87,-2147483648,-2147483648,185,-4,-2147483648,3,0,
+-2147483648,0,-3,-2147483648,3,185,87,87,-8,-2147483648,4,168,185,87,87,-4,-2147483648,-4,0,-2,-2147483648,1,87,-18,-2147483648,
+-3,0,-2,-2147483648,2,185,87,-18,-2147483648,1,0,-16,-2147483648,-4,0,-4,-2147483648,1,0,-15,-2147483648,-10,0,-10,-2147483648,
+-15,0,-6,-2147483648,-19,0,],},"visible":true,"depth":1000,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
       ],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Blocks","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2615C3E2","properties":[],"isDnd":false,"objectId":{"name":"o_wall_pink_glow","path":"objects/o_wall_pink_glow/o_wall_pink_glow.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":15.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,},

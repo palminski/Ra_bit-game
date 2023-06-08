@@ -150,6 +150,7 @@
     {"id":{"name":"o_trapdoor_blue","path":"objects/o_trapdoor_blue/o_trapdoor_blue.yy",},"order":9,},
     {"id":{"name":"s_enemy_turret_blue","path":"sprites/s_enemy_turret_blue/s_enemy_turret_blue.yy",},"order":12,},
     {"id":{"name":"o_trigger_trapdoor","path":"objects/o_trigger_trapdoor/o_trigger_trapdoor.yy",},"order":0,},
+    {"id":{"name":"Room_2_4","path":"rooms/Room_2_4/Room_2_4.yy",},"order":5,},
     {"id":{"name":"s_bg_cave","path":"sprites/s_bg_cave/s_bg_cave.yy",},"order":7,},
     {"id":{"name":"o_game_start","path":"objects/o_game_start/o_game_start.yy",},"order":6,},
     {"id":{"name":"o_digital_text","path":"objects/o_digital_text/o_digital_text.yy",},"order":20,},
@@ -348,6 +349,7 @@
     {"roomId":{"name":"Level_1_Entrance","path":"rooms/Level_1_Entrance/Level_1_Entrance.yy",},},
     {"roomId":{"name":"Template_Small","path":"rooms/Template_Small/Template_Small.yy",},},
     {"roomId":{"name":"Room_2_Pit","path":"rooms/Room_2_Pit/Room_2_Pit.yy",},},
+    {"roomId":{"name":"Room_2_4","path":"rooms/Room_2_4/Room_2_4.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
