@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-if color = "blue" {
+
+if o_rabit.hascontrol {
+	if color = "blue" {
 	
 global.roomtype = ROOMTYPE.BLUE;
 	part_particles_create(global.partical_system,x,y,global.part_blue_aura,75);
@@ -12,4 +14,6 @@ part_particles_create(global.partical_system,x,y,global.part_red_aura,75);
 }
 
 
-	instance_destroy(self);
+instance_destroy(self);
+}
+
