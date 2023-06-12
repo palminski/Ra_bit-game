@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_color_change_bullet",
   "spriteId": {
-    "name": "s_enemy_bullet",
-    "path": "sprites/s_enemy_bullet/s_enemy_bullet.yy",
+    "name": "s_color_change_bullet",
+    "path": "sprites/s_color_change_bullet/s_color_change_bullet.yy",
   },
   "solid": false,
   "visible": true,
