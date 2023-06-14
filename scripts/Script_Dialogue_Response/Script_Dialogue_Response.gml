@@ -125,4 +125,51 @@ if argument[0] == 31
 		}
 	
 }
+
+if argument[0] == 32 
+{
+	with (instance_create_layer(x,y-50,"Controllers",o_text_dialogue))
+	
+	if (global.swapPowerup == true) 
+		{
+			text = ["ERROR: AUGMENT ALREADY DOWNLOADED"];
+			length = string_length(text[0]);
+			totalItemsInArray = array_length(text);
+			x1 = x1Target;
+			x2 = x2Target;
+			
+		}
+		else {
+			text = ["SWAP AUGMENT DOWNLOADED"];
+			length = string_length(text[0]);
+			totalItemsInArray = array_length(text);
+			x1 = x1Target;
+			x2 = x2Target;
+			sendCommand("rbt init swap")
+		}
+	
+}
+if argument[0] == 33 
+{
+	with (instance_create_layer(x,y-50,"Controllers",o_text_dialogue))
+	
+	if (global.infiltrator == true) 
+		{
+			text = ["ERROR: AUGMENT ALREADY DOWNLOADED"];
+			length = string_length(text[0]);
+			totalItemsInArray = array_length(text);
+			x1 = x1Target;
+			x2 = x2Target;
+			
+		}
+		else {
+			text = ["SWAP AUGMENT DOWNLOADED"];
+			length = string_length(text[0]);
+			totalItemsInArray = array_length(text);
+			x1 = x1Target;
+			x2 = x2Target;
+			sendCommand("rbt init infiltrator")
+		}
+	
+}
 }

@@ -8,7 +8,7 @@
 function sendCommand(){
 
 var _command = argument[0]
-array_insert(global.previousCommands,0,_command);
+array_insert(global.previousCommands,0,"$ "+ _command);
 
 while (array_length(global.previousCommands) > 20)
 	{
@@ -23,7 +23,7 @@ if _command == "quit" {
 	game_end();
 }
 else if _command == "return" {
-	array_insert(global.previousCommands,0,"> Returning to main menu");
+	array_insert(global.previousCommands,0,"Returning to main menu...");
 	Slide_transition(TRANSITION_MODE.GOTO,Main_Menu);	
 }
 #endregion
@@ -34,7 +34,7 @@ else if _command == "rbt start" {
 	resets = ini_read_real("Story","Resets",776000)
 	ini_write_real("Story","Resets",resets+1);
 	ini_close();
-	array_insert(global.previousCommands,0,"> RABIT Boot up success! ======");
+	array_insert(global.previousCommands,0,"RABIT Boot up success! ======");
 	Slide_transition(TRANSITION_MODE.GOTO,HomeBase);
 			if instance_exists(o_transition) 
 				{
@@ -44,7 +44,7 @@ else if _command == "rbt start" {
 }
 else if _command == "dev start" {
 	
-	array_insert(global.previousCommands,0,"> Will Started the game with the Dev Start Command");
+	array_insert(global.previousCommands,0,"Will Started the game with the Dev Start Command");
 	global.roomtype = ROOMTYPE.BLUE;
 	global.score = 0;
 	global.life = 5;
@@ -71,18 +71,18 @@ else if _command == "dev start" {
 #region power ups
 else if _command == "rbt init swap" {
 	global.swapPowerup = true;
-	array_insert(global.previousCommands,0,"> Swap ability loaded onto RaBit. Use rbt start to activate with laoded abilities.");
+	array_insert(global.previousCommands,0,"Swap ability loaded onto RaBit. Use rbt start to activate with laoded abilities.");
 }
 else if _command == "rbt init infiltrator" {
 	global.infiltrator = true;
-	array_insert(global.previousCommands,0,"> Infiltrator ability loaded onto RaBit. Use rbt start to activate with laoded abilities.");
+	array_insert(global.previousCommands,0,"Infiltrator ability loaded onto RaBit. Use rbt start to activate with laoded abilities.");
 }
 #endregion
 
 else {
-	array_insert(global.previousCommands,0,"> "+_command+" not found");
+	array_insert(global.previousCommands,0,_command+" not found");
 }
 
-
+array_insert(global.previousCommands,0," ");
 
 }
