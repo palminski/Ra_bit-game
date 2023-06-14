@@ -52,6 +52,7 @@
     {"id":{"name":"o_solid_for_enemy","path":"objects/o_solid_for_enemy/o_solid_for_enemy.yy",},"order":3,},
     {"id":{"name":"o_enemy_patrolling","path":"objects/o_enemy_patrolling/o_enemy_patrolling.yy",},"order":2,},
     {"id":{"name":"Room_1_1_b_a","path":"rooms/Room_1_1_b_a/Room_1_1_b_a.yy",},"order":5,},
+    {"id":{"name":"sendCommand","path":"scripts/sendCommand/sendCommand.yy",},"order":9,},
     {"id":{"name":"Slide_transition","path":"scripts/Slide_transition/Slide_transition.yy",},"order":4,},
     {"id":{"name":"o_title_main_menu","path":"objects/o_title_main_menu/o_title_main_menu.yy",},"order":21,},
     {"id":{"name":"s_toggle_blue","path":"sprites/s_toggle_blue/s_toggle_blue.yy",},"order":8,},

@@ -134,3 +134,8 @@ if (!file_exists("save_file.ini")) {
 	ini_close();
 }
 #endregion
+
+#region Global Vars
+global.previousCommands = []
+
+#endregion

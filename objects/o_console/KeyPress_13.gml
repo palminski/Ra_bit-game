@@ -1,10 +1,10 @@
 var _command = keyboard_string;
-array_insert(previousCommands,0,_command);
+array_insert(global.previousCommands,0,_command);
 keyboard_string = "";
 
-while (array_length(previousCommands) > 20)
+while (array_length(global.previousCommands) > 20)
 	{
-		array_pop(previousCommands);	
+		array_pop(global.previousCommands);	
 	}
 
 if _command == "quit" {
@@ -34,11 +34,11 @@ else if _command == "dev start" {
 }
 else if _command == "rbt init swap" {
 	global.swapPowerup = true;
-	array_insert(previousCommands,0,"=> Swap ability loaded onto RaBit. Use rbt start to activate with laoded abilities.");
+	array_insert(global.previousCommands,0,"=> Swap ability loaded onto RaBit. Use rbt start to activate with laoded abilities.");
 }
 else if _command == "rbt init infiltrator" {
 	global.infiltrator = true;
-	array_insert(previousCommands,0,"=> Infiltrator ability loaded onto RaBit. Use rbt start to activate with laoded abilities.");
+	array_insert(global.previousCommands,0,"=> Infiltrator ability loaded onto RaBit. Use rbt start to activate with laoded abilities.");
 }
 else if _command == "rbt start" {
 	ini_open("save_file.ini");
@@ -54,7 +54,7 @@ else if _command == "rbt start" {
 				}
 }
 else {
-	array_insert(previousCommands,0,"=> "+_command+" not found");
+	array_insert(global.previousCommands,0,"=> "+_command+" not found");
 }
 
 
