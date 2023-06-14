@@ -221,6 +221,7 @@
     {"id":{"name":"o_spike_parent","path":"objects/o_spike_parent/o_spike_parent.yy",},"order":1,},
     {"id":{"name":"Approach","path":"scripts/Approach/Approach.yy",},"order":0,},
     {"id":{"name":"Labrynth_1_2_1","path":"rooms/Labrynth_1_2_1/Labrynth_1_2_1.yy",},"order":3,},
+    {"id":{"name":"resetStats","path":"scripts/resetStats/resetStats.yy",},"order":10,},
     {"id":{"name":"s_platform","path":"sprites/s_platform/s_platform.yy",},"order":4,},
     {"id":{"name":"Room_2_7","path":"rooms/Room_2_7/Room_2_7.yy",},"order":8,},
     {"id":{"name":"s_text_box","path":"sprites/s_text_box/s_text_box.yy",},"order":2,},
