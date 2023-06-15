@@ -241,6 +241,7 @@
     {"id":{"name":"s_status_box","path":"sprites/s_status_box/s_status_box.yy",},"order":6,},
     {"id":{"name":"s_enemy_turret_red","path":"sprites/s_enemy_turret_red/s_enemy_turret_red.yy",},"order":10,},
     {"id":{"name":"o_wall_colorful","path":"objects/o_wall_colorful/o_wall_colorful.yy",},"order":23,},
+    {"id":{"name":"o_return_helper","path":"objects/o_return_helper/o_return_helper.yy",},"order":15,},
     {"id":{"name":"o_big_screen","path":"objects/o_big_screen/o_big_screen.yy",},"order":2,},
     {"id":{"name":"s_invisible_platform","path":"sprites/s_invisible_platform/s_invisible_platform.yy",},"order":18,},
     {"id":{"name":"shader_dark","path":"shaders/shader_dark/shader_dark.yy",},"order":6,},

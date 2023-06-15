@@ -8,7 +8,7 @@ if letters >= length {
 	sendCommand("rbt start");
 	}
 	if menuOptions[responseSelected] == "CONSOLE" {
-		Slide_transition(TRANSITION_MODE.GOTO,Console);
+		room = Console;
 	}
 
 	if menuOptions[responseSelected] == "ABORT" {

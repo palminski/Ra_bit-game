@@ -9,8 +9,9 @@ time --
 
 
 if time <-50 {
-	array_insert(global.previousCommands,0,"CRITICAL ERROR DETECTED");
-	array_insert(global.previousCommands,0,"LOOP RESET =================");
+	array_insert(global.previousCommands,0,"==CRITICAL ERROR DETECTED!=======");
+	
+	array_insert(global.previousCommands,0,"=====[RABIT[6] Exited]===========");
 	array_insert(global.previousCommands,0,"");
 
 resetStats();
