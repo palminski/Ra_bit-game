@@ -243,6 +243,7 @@
     {"id":{"name":"o_wall_colorful","path":"objects/o_wall_colorful/o_wall_colorful.yy",},"order":23,},
     {"id":{"name":"o_big_screen","path":"objects/o_big_screen/o_big_screen.yy",},"order":2,},
     {"id":{"name":"s_invisible_platform","path":"sprites/s_invisible_platform/s_invisible_platform.yy",},"order":18,},
+    {"id":{"name":"shader_dark","path":"shaders/shader_dark/shader_dark.yy",},"order":6,},
     {"id":{"name":"o_platform_moving_horizontal_red","path":"objects/o_platform_moving_horizontal_red/o_platform_moving_horizontal_red.yy",},"order":0,},
     {"id":{"name":"s_coin","path":"sprites/s_coin/s_coin.yy",},"order":0,},
     {"id":{"name":"Room_2_Pit","path":"rooms/Room_2_Pit/Room_2_Pit.yy",},"order":3,},
