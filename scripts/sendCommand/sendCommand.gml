@@ -10,7 +10,7 @@ function sendCommand(){
 var _command = argument[0]
 array_insert(global.previousCommands,0,"$ "+ _command);
 
-while (array_length(global.previousCommands) > 18)
+while (array_length(global.previousCommands) > 17)
 	{
 		array_pop(global.previousCommands);	
 	}
