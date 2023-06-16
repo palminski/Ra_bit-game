@@ -72,3 +72,9 @@ Select [ABORT] To EXIT
 
 length = string_length(text);
 
+if global.comingFromConsole == true {
+	global.comingFromConsole = false;
+	letters = length;
+	responseSelected = 2;
+}
+

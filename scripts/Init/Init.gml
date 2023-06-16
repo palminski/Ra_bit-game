@@ -139,6 +139,8 @@ if (!file_exists("save_file.ini")) {
 
 global.previousCommands = []
 
+global.comingFromConsole = false;
+
 //Set up stats
 global.roomtype = ROOMTYPE.BLUE;
 global.score = 0;

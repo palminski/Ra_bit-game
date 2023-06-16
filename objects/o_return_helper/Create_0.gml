@@ -3,6 +3,6 @@
 
 
 
-show_debug_message([x,y])
 
 
+show_debug_message("im here")
