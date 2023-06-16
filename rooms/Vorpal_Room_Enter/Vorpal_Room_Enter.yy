@@ -25,7 +25,10 @@
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Entities","instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21250348_6_14_5_1_6","properties":[],"isDnd":false,"objectId":{"name":"o_rabit","path":"objects/o_rabit/o_rabit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":875.0,"y":299.0,},
           ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-        {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactables","instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+        {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactables","instances":[
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F31A4B2","properties":[],"isDnd":false,"objectId":{"name":"o_terminal","path":"objects/o_terminal/o_terminal.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":145.0,},
+            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1C7B23BE","properties":[],"isDnd":false,"objectId":{"name":"o_terminal_screen","path":"objects/o_terminal_screen/o_terminal_screen.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":60,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":831.0,"y":144.0,},
+          ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
       ],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Draw_Behind_Player","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_317A5913_3_14_5_1_7","properties":[],"isDnd":false,"objectId":{"name":"o_blood_controller","path":"objects/o_blood_controller/o_blood_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":0.0,},
@@ -52,12 +55,12 @@
 99,-2147483648,-2147483648,0,-2147483648,-2147483648,-4,0,1,-2147483648,-5,0,-3,-2147483648,-5,0,2,-2147483648,0,-4,-2147483648,6,0,-2147483648,-2147483648,
 0,0,181,-4,0,3,-2147483648,0,-2147483648,-3,0,-10,-2147483648,6,0,-2147483648,-2147483648,195,-2147483648,-2147483648,-6,0,-9,-2147483648,],},"visible":true,"depth":800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
         {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_Pipes","tilesetId":{"name":"tileset_pipes_grass","path":"tilesets/tileset_pipes_grass/tileset_pipes_grass.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":25,"SerialiseHeight":15,"TileCompressedData":[
--20,-2147483648,-2,0,-6,-2147483648,-5,0,3,-2147483648,0,-2147483648,-3,0,4,-2147483648,0,0,-2147483648,-4,0,-5,-2147483648,-2,0,
--15,-2147483648,-3,0,-4,-2147483648,-2,0,-17,-2147483648,-2,0,5,-2147483648,4,-2147483648,0,0,-18,-2147483648,-2,0,2,-2147483648,21,
--21,-2147483648,-2,24,2,-2147483648,24,-21,-2147483648,4,21,23,-2147483648,38,-21,-2147483648,-2,24,-23,-2147483648,2,21,23,-5,-2147483648,
-1,0,-17,-2147483648,-2,0,-2,24,-3,-2147483648,1,0,-16,-2147483648,-3,0,2,72,74,-3,-2147483648,-6,0,-8,-2147483648,
-3,0,-2147483648,-2147483648,-3,0,-2,24,-8,-2147483648,-2,0,-2,-2147483648,13,0,-2147483648,0,-2147483648,0,0,-2147483648,0,-2147483648,0,
-0,72,74,-8,-2147483648,-4,0,-2,-2147483648,-3,0,-14,-2147483648,-4,0,-16,-2147483648,],},"visible":true,"depth":900,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+-20,-2147483648,-2,0,-6,-2147483648,-5,0,3,-2147483648,0,-2147483648,-3,0,4,-2147483648,0,0,-2147483648,-3,0,3,38,22,22,
+-3,-2147483648,-2,0,-15,-2147483648,-3,0,6,21,40,-2147483648,-2147483648,0,0,-17,-2147483648,-2,0,5,21,4,-2147483648,0,0,
+-18,-2147483648,-2,0,2,-2147483648,21,-21,-2147483648,-2,24,2,-2147483648,24,-21,-2147483648,4,21,23,-2147483648,38,-21,-2147483648,-2,24,
+-23,-2147483648,2,21,23,-5,-2147483648,1,0,-17,-2147483648,-2,0,-2,24,-3,-2147483648,1,0,-16,-2147483648,-3,0,2,72,
+74,-3,-2147483648,-6,0,-8,-2147483648,3,0,-2147483648,-2147483648,-3,0,-2,24,-8,-2147483648,-2,0,-2,-2147483648,13,0,-2147483648,0,
+-2147483648,0,0,-2147483648,0,-2147483648,0,0,72,74,-8,-2147483648,-4,0,-2,-2147483648,-3,0,-14,-2147483648,-4,0,-16,-2147483648,],},"visible":true,"depth":900,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
         {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_Blocks","tilesetId":{"name":"tileset_blocks","path":"tilesets/tileset_blocks/tileset_blocks.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":25,"SerialiseHeight":15,"TileCompressedData":[
 -16,87,2,4,52,-6,60,1,24,-8,87,1,4,-7,52,1,70,-7,-2147483648,3,40,87,4,-6,52,
 1,70,-14,-2147483648,4,0,40,87,48,-21,-2147483648,4,0,40,4,70,-21,-2147483648,4,0,40,48,0,-21,-2147483648,
@@ -154,6 +157,8 @@
     {"name":"inst_1BD5AF49","path":"rooms/Vorpal_Room_Enter/Vorpal_Room_Enter.yy",},
     {"name":"inst_4BE36FC9","path":"rooms/Vorpal_Room_Enter/Vorpal_Room_Enter.yy",},
     {"name":"inst_7277346","path":"rooms/Vorpal_Room_Enter/Vorpal_Room_Enter.yy",},
+    {"name":"inst_7F31A4B2","path":"rooms/Vorpal_Room_Enter/Vorpal_Room_Enter.yy",},
+    {"name":"inst_1C7B23BE","path":"rooms/Vorpal_Room_Enter/Vorpal_Room_Enter.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
