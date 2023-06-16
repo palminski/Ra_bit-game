@@ -3,11 +3,11 @@
 #region Player Input
 if (hascontrol)
 {
-	keyleft = keyboard_check(vk_numpad4);
-	keyright = keyboard_check(vk_numpad6);
-	keyjump = keyboard_check_pressed(vk_numpad8);
-	keyjump_held = keyboard_check(vk_numpad8);
-	keydown = keyboard_check(vk_numpad5);
+	keyleft = keyboard_check(vk_numpad4) || keyboard_check(ord("A"));
+	keyright = keyboard_check(vk_numpad6) || keyboard_check(ord("D"));
+	keyjump = keyboard_check_pressed(vk_numpad8) || keyboard_check_pressed(ord("W"));
+	keyjump_held = keyboard_check(vk_numpad8) || keyboard_check(ord("W"));
+	keydown = keyboard_check(vk_numpad5) || keyboard_check(ord("S"));
 	//keyattack = keyboard_check_pressed(ord("X"));
 }
 else
