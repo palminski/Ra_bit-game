@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-keyup = keyboard_check_pressed(vk_numpad8);
-keydown = keyboard_check_pressed(vk_numpad5);
+keyup = keyboard_check_pressed(vk_numpad8) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
+keydown = keyboard_check_pressed(vk_numpad5) || keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down);
 
 //Text to side
 if (letters < length) 

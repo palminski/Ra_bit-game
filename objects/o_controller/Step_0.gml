@@ -49,14 +49,17 @@ if (global.roomtype == ROOMTYPE.BLUE)
 	
 	layer_background_blend(background, #3232A8);
 	
-	layer_shader(bg_tiles, shader_blue);
+	//layer_shader(bg_tiles, shader_blue);
 }
 else
 {
 	// old $09074C
 	//#a83232
-	layer_background_blend(background, #A83832);
-	layer_shader(bg_tiles, shader_red);
+	layer_background_blend(background, #f21105);
+	//layer_shader(bg_tiles, shader_red);
 }
+
+//Make BG tiled darker
+layer_shader(bg_tiles, shader_dark);
 
 
